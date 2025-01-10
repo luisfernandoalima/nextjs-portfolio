@@ -3,6 +3,9 @@
 .menuButtom{
     background-color: var(--menu-background-color);
     color: var(--menu-link-color);
+    
+    --tw-ring-opacity: 1;
+    --tw-ring-color: var(--menu-link-color);
 
     &:hover{
         --darker-background: color-mix(in srgb, var(--menu-background-color), white 10%);
