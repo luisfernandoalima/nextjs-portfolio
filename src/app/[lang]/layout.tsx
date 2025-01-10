@@ -15,9 +15,11 @@ export default async function SiteLayout({
 
   const dictionary = await getDictionary(lang);
 
+  console.log(lang)
+
   return (
     <>
-      <Header dictionary={dictionary.menu} />
+      <Header dictionary={dictionary.menu} lang={lang}/>
       <main>{children}</main>
       <Footer />
     </>

@@ -14,14 +14,14 @@ import './Header.scss'
 
 // const Dictionary = typeof getDictionary
 
-export const Header = ({dictionary}: {dictionary: TdictionaryMenu}) => {
+export const Header = ({dictionary, lang}: {dictionary: TdictionaryMenu, lang:string}) => {
 
   return (
     <header className="flex items-center justify-between pr-4">
-      <Link href={"/"}>
+      <Link href={`/${lang}/`}>
         <Image src={logo} alt="Minha logo" width={150} height={150} priority={true} />
       </Link>
-      <Navbar dictionary={dictionary}/>
+      <Navbar dictionary={dictionary} lang={lang}/>
     </header>
   );
 };
