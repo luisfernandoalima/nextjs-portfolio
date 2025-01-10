@@ -3,6 +3,7 @@ import Link from "next/link";
 import { TdictionaryMenu } from "@/types/dictionary";
 
 import { Language } from '@/components/layouts/Navbar/Language'
+import { ThemeChanger } from "./ThemeChanger";
 
 export const Navbar = ({ dictionary, lang }: { dictionary: TdictionaryMenu, lang: string }) => {
 
@@ -16,7 +17,7 @@ export const Navbar = ({ dictionary, lang }: { dictionary: TdictionaryMenu, lang
           <Link href={`/${lang}/about`}>{dictionary.projects}</Link>
         </li>
         <li><Language/></li>
-        <li>Mudar tema</li>
+        <li><ThemeChanger /></li>
       </ul>
     </nav>
   );
