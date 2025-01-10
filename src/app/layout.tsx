@@ -1,18 +1,13 @@
-import { Header } from "@/components/layouts/Header";
+import "@/styles/globals.css";
 
-import "./globals.css";
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="pt-br">
-      <body>
-        <Header/>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,12 +1,20 @@
-import Link from "next/link"
+import { IoLanguage } from "react-icons/io5";
 
-export const Navbar = () => {
-    return(
-        <ul className="flex items-center justify-center gap-4">
-            <li><Link href={"/"}>Home</Link></li>
-            <li><Link href={"/projects"}>Projects</Link></li>
-            <li>Idioma</li>
-            <li>Mudar tema</li>
-        </ul>
-    )
-}
+import { TdictionaryMenu } from "@/types/dictionary";
+
+import Link from "next/link";
+
+export const Navbar = ({dictionary} : {dictionary:TdictionaryMenu}) => {
+  return (
+    <ul className="flex items-center justify-center gap-4">
+      <li>
+        <Link href={"/"}>{dictionary.home}</Link>
+      </li>
+      <li>
+        <Link href={"/projects"}>{dictionary.projects}</Link>
+      </li>
+      <li><IoLanguage /></li>
+      <li>Mudar tema</li>
+    </ul>
+  );
+};

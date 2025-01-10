@@ -3,15 +3,25 @@ import Link from "next/link";
 
 import { Navbar } from "../Navbar";
 
+import { TdictionaryMenu } from "@/types/dictionary";
+
+
+
+
+
+import logo from '../../../../public/LF-logo.png'
 import './Header.scss'
 
-export const Header = () => {
+// const Dictionary = typeof getDictionary
+
+export const Header = ({dictionary}: {dictionary: TdictionaryMenu}) => {
+
   return (
     <header className="flex items-center justify-between pr-4">
       <Link href={"/"}>
-        <Image src={"/LF-logo.png"} alt="Minha logo" width={150} height={150} />
+        <Image src={logo} alt="Minha logo" width={150} height={150} priority={true} />
       </Link>
-      <Navbar />
+      <Navbar dictionary={dictionary}/>
     </header>
   );
 };
