@@ -33,8 +33,8 @@ export const ThemeChanger = () => {
     <div className="switch">
       <input type="checkbox" className="checkBox" id="checkBox" ref={inputRef} onChange={toggleTheme}/>
       <label htmlFor="checkBox" className="label">
-        <FaMoon />
-        <FaSun />
+        <FaMoon className="fa-moon"/>
+        <FaSun className="fa-sun"/>
         <div className="ball"></div>
       </label>
     </div>

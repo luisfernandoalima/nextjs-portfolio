@@ -10,10 +10,10 @@ export const Navbar = ({ dictionary, lang }: { dictionary: TdictionaryMenu, lang
   return (
     <nav>
       <ul className="flex items-center justify-center gap-4">
-        <li>
+        <li className="font-semibold">
           <Link href={`/${lang}`}>{dictionary.home}</Link>
         </li>
-        <li>
+        <li className="font-semibold">
           <Link href={`/${lang}/about`}>{dictionary.projects}</Link>
         </li>
         <li><Language/></li>

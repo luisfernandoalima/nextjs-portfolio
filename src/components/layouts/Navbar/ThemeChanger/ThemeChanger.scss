@@ -1,3 +1,5 @@
+@use '../../../../styles/themes.scss';
+
 .checkBox {
     opacity: 0;
     position: absolute;
@@ -34,9 +36,9 @@
   }
   
   .fa-moon {
-    color: #fff;
+    color: #ced4da;
   }
   
   .fa-sun {
-    color: #ffff00;
+    color: #ffea00;
   }

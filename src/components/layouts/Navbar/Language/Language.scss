@@ -1,0 +1,16 @@
+@use '../../../../styles/themes.scss';
+
+.menuButtom{
+    background-color: var(--menu-background-color);
+    color: var(--menu-link-color);
+
+    &:hover{
+        --darker-background: color-mix(in srgb, var(--menu-background-color), white 10%);
+        background-color: var(--darker-background);
+    }
+}
+
+.menuItems{
+    background-color: var(--menu-background-color);
+    color: var(--menu-link-color);
+}
