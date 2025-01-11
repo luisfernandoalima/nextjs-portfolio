@@ -1,0 +1,14 @@
+.horizontalNavigation {
+  display: block;
+  svg {
+    cursor: pointer;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .horizontalNavigation {
+    display: none;
+  }
+  
+}

@@ -48,7 +48,7 @@ export const Language = () => {
               <MenuItem key={locale}>
                 <Link
                   href={redirectPathName(locale)}
-                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm  data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                  className="flex items-center justify-center gap-1 px-4 py-2 text-sm  data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
                 >
                   <Image src={languageIcons[locale]} width={24} height={24} alt="flag" />
                   {locale}

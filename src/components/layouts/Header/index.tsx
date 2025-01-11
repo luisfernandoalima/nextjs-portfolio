@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Navbar } from "../Navbar";
+import { HamburguerMenu } from "../Navbar/Mobile";
 
 import { TdictionaryMenu } from "@/types/dictionary";
 
@@ -22,6 +23,7 @@ export const Header = ({dictionary, lang}: {dictionary: TdictionaryMenu, lang:st
         <Image src={logo} alt="Minha logo" width={150} height={150} priority={true} />
       </Link>
       <Navbar dictionary={dictionary} lang={lang}/>
+      <HamburguerMenu dictionary={dictionary} lang={lang}/>
     </header>
   );
 };
