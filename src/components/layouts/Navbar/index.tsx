@@ -19,7 +19,7 @@ export const Navbar = ({ dictionary, lang }: { dictionary: TdictionaryMenu, lang
           <Link href={`/${lang}/about`}>{dictionary.projects}</Link>
         </li>
         <li><Language/></li>
-        <li><ThemeChanger /></li>
+        <li><ThemeChanger customId="desktopChanger"/></li>
       </ul>
     </nav>
   );

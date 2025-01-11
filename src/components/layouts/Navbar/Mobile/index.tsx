@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import { IoClose } from "react-icons/io5";
 
-// import { ThemeChanger } from "../ThemeChanger";
+import { ThemeChanger } from "../ThemeChanger";
 import { Language } from "../Language";
 
 import "./Menu.scss";
@@ -65,6 +65,9 @@ export const HamburguerMenu = ({
               </li>
             </ul>
           </nav>
+        </div>
+        <div className="menuFooter">
+        <ThemeChanger customId="mobileChanger" />
         </div>
       </div>
     </>

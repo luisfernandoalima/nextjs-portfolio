@@ -6,7 +6,7 @@ import { FaSun, FaMoon } from "react-icons/fa";
 
 import './ThemeChanger.scss'
 
-export const ThemeChanger = () => {
+export const ThemeChanger = ({customId}:{customId:string}) => {
     const [theme, setTheme] = useState("light")
     const inputRef = useRef<HTMLInputElement | null>(null)
 
@@ -31,8 +31,8 @@ export const ThemeChanger = () => {
 
   return (
     <div className="switch">
-      <input type="checkbox" className="checkBox" id="checkBox" ref={inputRef} onChange={toggleTheme}/>
-      <label htmlFor="checkBox" className="label">
+      <input type="checkbox" className="checkBox" id={customId} ref={inputRef} onChange={toggleTheme}/>
+      <label htmlFor={customId} className="label">
         <FaMoon className="fa-moon"/>
         <FaSun className="fa-sun"/>
         <div className="ball"></div>
