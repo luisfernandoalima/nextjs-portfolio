@@ -47,13 +47,13 @@ export const HamburguerMenu = ({
           <span></span>
         </label>
       </div>
-      <div className="menuMobile py-5" ref={menuRef}>
+      <div className="menuMobile py-5 flex flex-col justify-between items-center" ref={menuRef}>
         <div className="menuHeader w-full  px-2 flex items-center justify-end">
           <IoClose className="text-4xl cursor-pointer" onClick={showMenu} />
         </div>
-        <div className="menuBody p-2">
-          <nav>
-            <ul className="text-2xl">
+        <div className="menuBody px-3 py-5 h-full w-full flex flex-col justify-start">
+          <nav className="">
+            <ul className="text-2xl flex flex-col gap-5">
               <li className="font-semibold">
                 <Link href={`/${lang}/`}>{dictionary.home}</Link>
               </li>

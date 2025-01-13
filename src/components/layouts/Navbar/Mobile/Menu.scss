@@ -68,3 +68,11 @@
     display: block;
   }
 }
+
+
+@media(min-width: 769px){
+  .menuMobile {
+    right: -555px !important;
+  }
+  
+}
