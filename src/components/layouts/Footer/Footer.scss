@@ -1,0 +1,16 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+.mainFooter {
+  @include m.flex(center, space-between, row);
+  background-color: var(--menu-background-color);
+  color: #fff;
+}
+
+
+@media(max-width: 768px){
+    .mainFooter{
+        @include m.flex(flex-start, center, column);
+        gap: .5rem;
+    }
+}

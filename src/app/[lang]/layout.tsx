@@ -21,7 +21,7 @@ export default async function SiteLayout({
     <>
       <Header dictionary={dictionary.menu} lang={lang}/>
       <main>{children}</main>
-      <Footer />
+      <Footer dictionary={dictionary.footer} />
     </>
   );
 }

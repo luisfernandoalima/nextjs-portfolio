@@ -3,6 +3,9 @@
         "home": "Início",
         "projects": "Projetos"
     },
+    "text": "Hello, World!!!",
 
-      "text": "Hello, World!!!"
+    "footer":{
+        "developer":"Desenvolvido por"
+    }
 }
