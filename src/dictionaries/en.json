@@ -3,9 +3,16 @@
         "home": "Home",
         "projects": "Projects"
     },
-    "text": "Hello, World!!!",
-
-    "footer":{
-        "developer":"Developed by"
+    "main": {
+        "home": {
+            "hero": {
+                "greetings": "Hello, I am",
+                "function1": "Full-Stack Developer",
+                "function2": "JavaScript Developer"
+            }
+        }
+    },
+    "footer": {
+        "developer": "Developed by"
     }
 }

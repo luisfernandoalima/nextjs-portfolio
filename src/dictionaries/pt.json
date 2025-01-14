@@ -3,8 +3,15 @@
         "home": "Início",
         "projects": "Projetos"
     },
-    "text": "Hello, World!!!",
-
+    "main":{
+        "home": {
+            "hero": {
+                "greetings": "Olá, Eu sou",
+                "function1": "Desenvolvedo Full-Stack",
+                "function2": "Desenvolvedor JavaScript"
+            }
+        }
+    },
     "footer":{
         "developer":"Desenvolvido por"
     }

@@ -3,11 +3,13 @@
     --menu-link-color: #caf0f8;
     --menu-icon-color: #ffea00;
 
-    --menu-dropdown: #000;
+    --background-color-main: #90e0ef;
 }
 
 [data-theme="dark"]{
     --menu-background-color: #00111C;
     --menu-link-color: #90e0ef;
     --menu-icon-color: #ced4da;
+
+    --background-color-main: #00111C;
 }

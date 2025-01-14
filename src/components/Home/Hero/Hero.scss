@@ -1,0 +1,7 @@
+@use '../../../styles/themes.scss';
+@use '../../../styles/mixins.scss' as m;
+
+.heroSection{
+    @include m.flex(center, center, row);
+
+}
