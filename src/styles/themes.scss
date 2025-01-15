@@ -3,7 +3,10 @@
     --menu-link-color: #caf0f8;
     --menu-icon-color: #ffea00;
 
-    --background-color-main: #90e0ef;
+    --main-background-color: #D5DEEF;
+    --main-text-color: #00406C;
+    --main-focus-text: #001A2C;
+    --main-basic-text-color: #000;
 }
 
 [data-theme="dark"]{
@@ -11,5 +14,8 @@
     --menu-link-color: #90e0ef;
     --menu-icon-color: #ced4da;
 
-    --background-color-main: #00111C;
+    --main-background-color: #001523;
+    --main-text-color: #caf0f8;
+    --main-focus-text: #ffd60a;
+    --main-basic-text-color: #fff;
 }

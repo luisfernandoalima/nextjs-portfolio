@@ -1,7 +1,23 @@
-@use '../../../styles/themes.scss';
-@use '../../../styles/mixins.scss' as m;
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+@import "atropos/css";
 
-.heroSection{
-    @include m.flex(center, center, row);
+.heroSection {
+  @include m.flex(center, center, row);
+  background-color: var(--main-background-color);
 
+  .heroHeader {
+    span{
+        color: var(--main-basic-text-color);
+    }
+    h1 {
+      color: var(--main-text-color);
+    }
+    div {
+      h2,
+      span {
+        color: var(--main-focus-text);
+      }
+    }
+  }
 }

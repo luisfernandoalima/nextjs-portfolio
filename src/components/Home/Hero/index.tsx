@@ -1,10 +1,16 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 import Typed from "typed.js";
+import Atropos from "atropos/react";
+import "atropos/css";
+
+import { LinkButton } from "../LinkButton";
 
 import Image from "next/image";
-
+import devIcon from "../../../../public/developer_icon.png";
 import { IHero } from "@/types/dictionary";
 import "./Hero.scss";
 
@@ -33,15 +39,21 @@ export const Hero = ({ dictionary }: { dictionary: IHero }) => {
   }, [dictionary.function1, dictionary.function2]);
 
   return (
-    <section className="heroSection">
-      <div>
-        <span>{dictionary.greetings}</span>
-        <h1>Luis Fernando Alves de Lima</h1>
-        <div className="flex items-center justify-start">
-            <h2 ref={elRef}></h2>
+    <section className="heroSection p-5">
+      <div className="heroHeader">
+        <span className="text-xl">{dictionary.greetings}</span>
+        <h1 className="text-5xl font-semibold">Luis Fernando</h1>
+        <div className="flex items-center justify-start text-2xl font-semibold">
+          <h2 ref={elRef}></h2>
+        </div>
+        <div className="flex items-center justify-start gap-4 mt-3">
+          <LinkButton link="" text="LinkedIn" customClass="Linkedin"><FaLinkedin /></LinkButton>
+          <LinkButton link="" text="GitHub" customClass="Github"><FaGithub /></LinkButton>
         </div>
       </div>
-      <Image src={""} alt="" height={150} width={150} />
+      <Atropos shadow={false} highlight={false}>
+        <Image src={devIcon} alt="" height={400} width={400} />
+      </Atropos>
     </section>
   );
 };
