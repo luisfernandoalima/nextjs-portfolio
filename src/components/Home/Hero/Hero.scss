@@ -1,7 +1,5 @@
 @use "../../../styles/themes.scss";
 @use "../../../styles/mixins.scss" as m;
-@import "atropos/css";
-
 .heroSection {
   @include m.flex(center, center, row);
   background-color: var(--main-background-color);
@@ -20,4 +18,11 @@
       }
     }
   }
+}
+
+
+@media( max-width: 768px){
+    .heroSection{
+        @include m.flex(center, center, column);
+    }
 }

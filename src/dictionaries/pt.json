@@ -9,6 +9,9 @@
                 "greetings": "Olá, Eu sou",
                 "function1": "Desenvolvedo Full-Stack",
                 "function2": "Desenvolvedor JavaScript"
+            },
+            "experience": {
+                "title": "Experiências"
             }
         }
     },

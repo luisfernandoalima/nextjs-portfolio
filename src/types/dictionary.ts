@@ -21,3 +21,7 @@ export type TdictionaryHero = {
 export type TdictionaryMain = {
   home: TdictionaryHero;
 };
+
+export interface IExperience {
+  title:string
+}

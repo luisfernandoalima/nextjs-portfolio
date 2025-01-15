@@ -1,0 +1,85 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+
+.experienceSection{
+    background-color: var(--main-background-color);
+    color: var(--main-focus-text);
+}
+
+
+.iconDiv {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 15px;
+  max-width: 1024px;
+
+  span {
+    @include m.flex(center, center, row);
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: #ededed;
+    box-shadow: 4px 6px 8px #0000006e;
+
+    font-size: 3.5em;
+    transition: 0.3s;
+
+    &.html {
+      color: #f25d27;
+    }
+    &.css {
+      color: #214ce5;
+    }
+    &.scss {
+      color: #f25d27;
+    }
+    &.js {
+      color: #f7e018;
+    }
+    &.ts {
+      color: #037acc;
+    }
+    &.react {
+      color: #61dafb;
+    }
+    &.next {
+      color: #000;
+    }
+    &.bootstrap {
+      color: #8c0bfd;
+    }
+    &.tailwind {
+      color: #38bdf8;
+    }
+    &.node {
+      color: #68a063;
+    }
+    &.mysql {
+      color: #016089;
+    }
+    &.mongo {
+      color: #08f96a;
+    }
+
+    &.vite {
+      color: #b04df6;
+    }
+    &.git {
+      color: #f05033;
+    }
+
+    &.github {
+      color: #000;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .iconDiv {
+    grid-template-columns: repeat(3, auto);
+  }
+}

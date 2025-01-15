@@ -9,6 +9,9 @@
                 "greetings": "Hello, I am",
                 "function1": "Full-Stack Developer",
                 "function2": "JavaScript Developer"
+            },
+            "experience": {
+                "title": "Experiences"
             }
         }
     },
