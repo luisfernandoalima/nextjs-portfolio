@@ -25,3 +25,8 @@ export type TdictionaryMain = {
 export interface IExperience {
   title:string
 }
+
+export interface IAboutMe {
+  title: string;
+  text:string[];
+}

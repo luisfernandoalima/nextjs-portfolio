@@ -10,6 +10,13 @@
                 "function1": "Full-Stack Developer",
                 "function2": "JavaScript Developer"
             },
+            "aboutMe": {
+                "title": "About me",
+                "text": [
+                    "My name is Luis Fernando and I am a full-stack JavaScript developer. My first contact with programming was in 2021, when I studied at Etec Jardim Ângela on the Systems Development course.",
+                    "Currently, I study Systems Analysis and Development at FATEC Zona Sul and study web JavaScript technologies (ReactJS, NextJS, NodeJS and ExpressJS)."
+                ]
+            },
             "experience": {
                 "title": "Experiences"
             }

@@ -25,7 +25,7 @@ import "./Experience.scss";
 export const Experience = ({dictionary}:{dictionary: IExperience}) => {
   return (
     <section className="experienceSection p-5 flex items-center justify-center flex-col">
-      <h2 className="text-3xl font-semibold">{dictionary.title}</h2>
+      <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
       <div className="iconDiv mt-4">
         <span className="html">
           <FaHtml5 />
