@@ -17,16 +17,25 @@ export type TdictionaryHero = {
   hero: IHero;
 };
 
-
 export type TdictionaryMain = {
   home: TdictionaryHero;
 };
 
-export interface IExperience {
-  title:string
-}
-
 export interface IAboutMe {
   title: string;
-  text:string[];
+  text: string[];
+}
+export interface IKnowledge {
+  title: string;
+}
+
+interface Iformations {
+  title: string;
+  institution: string;
+  startDate: string;
+  endDate: string;
+}
+export interface IFormation {
+  title: string;
+  formations: Iformations[];
 }

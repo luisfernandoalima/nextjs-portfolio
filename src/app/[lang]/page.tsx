@@ -3,7 +3,8 @@ import { Locale } from "@/i18n-config";
 
 import { Hero } from "@/components/Home/Hero";
 import { AboutMe } from "@/components/Home/AboutMe";
-import { Experience } from "@/components/Home/Experience";
+import { Knowledge } from "@/components/Home/Knowledge";
+import { Formation } from "@/components/Home/Formation";
 
 export default async function Home({
   params,
@@ -20,7 +21,8 @@ export default async function Home({
     <>
       <Hero dictionary={dictionary.main.home.hero} />
       <AboutMe dictionary={dictionary.main.home.aboutMe}/>
-      <Experience dictionary={dictionary.main.home.experience}/>
+      <Knowledge dictionary={dictionary.main.home.knowledge}/>
+      <Formation dictionary={dictionary.main.home.formation}/>
       <p>
         https://coolors.co/palette/00111c-001523-001a2c-002137-00253e-002945-002e4e-003356-003a61-00406c{" "}
       </p>

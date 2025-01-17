@@ -17,8 +17,25 @@
                     "Currently, I study Systems Analysis and Development at FATEC Zona Sul and study web JavaScript technologies (ReactJS, NextJS, NodeJS and ExpressJS)."
                 ]
             },
-            "experience": {
-                "title": "Experiences"
+            "knowledge": {
+                "title": "Knowledge"
+            },
+            "formation": {
+                "title": "Formação",
+                "formations": [
+                    {
+                        "title": "Technical Education in Systems Development.",
+                        "institution": "Etec Jardim Ângela",
+                        "startDate": "02/02/2021",
+                        "endDate": "12/31/2023"
+                    },
+                    {
+                        "title": "Higher technology course in Systems Analysis and Development.",
+                        "institution": "FATEC Dom Paulo Evaristo Arns",
+                        "startDate": "02/02/2024",
+                        "endDate": "12/31/2026"
+                    }
+                ]
             }
         }
     },

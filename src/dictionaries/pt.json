@@ -3,7 +3,7 @@
         "home": "Início",
         "projects": "Projetos"
     },
-    "main":{
+    "main": {
         "home": {
             "hero": {
                 "greetings": "Olá, Eu sou",
@@ -17,12 +17,29 @@
                     "Atualmente, estudo Análise e Desenvolvimento de Sistemas na FATEC Zona Sul e estudo técnologias JavaScript focadas na web (ReactJS, NextJS, NodeJS e ExpressJS)."
                 ]
             },
-            "experience": {
-                "title": "Experiências"
+            "knowledge": {
+                "title": "Conhecimentos"
+            },
+            "formation": {
+                "title": "Formação",
+                "formations": [
+                    {
+                        "title": "Ensino Técnico em Desenvolvimento de Sistemas Integrado ao Médio.",
+                        "institution": "Etec Jardim Ângela",
+                        "startDate": "02/02/2021",
+                        "endDate": "31/12/2023"
+                    },
+                    {
+                        "title": "Curso superior de tecnologia em Análise e Desenvolvimento de Sistemas.",
+                        "institution": "FATEC Dom Paulo Evaristo Arns",
+                        "startDate": "02/02/2024",
+                        "endDate": "31/12/2026"
+                    }
+                ]
             }
         }
     },
-    "footer":{
-        "developer":"Desenvolvido por"
+    "footer": {
+        "developer": "Desenvolvido por"
     }
 }

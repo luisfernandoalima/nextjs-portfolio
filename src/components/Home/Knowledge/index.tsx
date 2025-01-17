@@ -23,18 +23,18 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-import { IExperience } from "@/types/dictionary";
+import { IKnowledge } from "@/types/dictionary";
 
-import "./Experience.scss";
+import "./Knowledge.scss";
 
-export const Experience = ({ dictionary }: { dictionary: IExperience }) => {
+export const Knowledge = ({ dictionary }: { dictionary: IKnowledge }) => {
   return (
     <motion.div
       initial="offscreen"
       whileInView={"onscreen"}
       viewport={{ amount: 0.3, once: true }}
     >
-      <section className="experienceSection p-5 flex items-center justify-center flex-col">
+      <section className="knowledgeSection p-5 flex items-center justify-center flex-col">
         <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
         <div className="iconDiv mt-4">
           {IconsList.map((item, index) => (

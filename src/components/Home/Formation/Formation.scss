@@ -1,0 +1,17 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+.experienceSection{
+    background-color: var(--main-background-secundary-color);
+    color: var(--main-focus-text);
+}
+
+
+.formationCard{
+    background-color: #0b090a;
+    color: var(--main-basic-text-color);
+
+    max-width: 750px;
+    width: 100%;
+    box-shadow: 4px 6px 8px #0000006e;
+}

@@ -52,7 +52,7 @@ export const Hero = ({ dictionary }: { dictionary: IHero }) => {
         </div>
       </div>
       <Atropos shadow={false} highlight={false}>
-        <Image src={devIcon} alt="" height={400} width={400} />
+        <Image src={devIcon} alt="" height={450} width={450} />
       </Atropos>
     </section>
   );
