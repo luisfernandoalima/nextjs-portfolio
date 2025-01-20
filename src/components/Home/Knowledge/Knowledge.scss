@@ -7,6 +7,66 @@
     color: var(--main-focus-text);
 }
 
+.knowledgeIconDiv{
+  @include m.flex(center, center, row);
+  gap: 50px;
+
+  .html {
+    color: #f25d27;
+  }
+  .css {
+    color: #214ce5;
+  }
+  .scss {
+    color: #CE679A;
+  }
+  .js {
+    color: #f7e018;
+  }
+  .ts {
+    color: #037acc;
+  }
+  .react {
+    color: #61dafb;
+  }
+  .next {
+    color: #000;
+  }
+  .bootstrap {
+    color: #8c0bfd;
+  }
+  .tailwind {
+    color: #38bdf8;
+  }
+  .node {
+    color: #68a063;
+  }
+  .mysql {
+    color: #016089;
+  }
+  .mongo {
+    color: #08f96a;
+  }
+
+  .vite {
+    color: #b04df6;
+  }
+  .git {
+    color: #f05033;
+  }
+
+  .github {
+    color: #000;
+  }
+
+
+  .mainInfo{
+    @include m.flex(center, space-evenly, column);
+    height: 250px;
+    width: 250px;
+    background-color: #ededed;
+  }
+}
 
 .iconDiv {
   display: grid;
@@ -24,54 +84,7 @@
     font-size: 3em;
     transition: 0.3s;
 
-    &.html {
-      color: #f25d27;
-    }
-    &.css {
-      color: #214ce5;
-    }
-    &.scss {
-      color: #CE679A;
-    }
-    &.js {
-      color: #f7e018;
-    }
-    &.ts {
-      color: #037acc;
-    }
-    &.react {
-      color: #61dafb;
-    }
-    &.next {
-      color: #000;
-    }
-    &.bootstrap {
-      color: #8c0bfd;
-    }
-    &.tailwind {
-      color: #38bdf8;
-    }
-    &.node {
-      color: #68a063;
-    }
-    &.mysql {
-      color: #016089;
-    }
-    &.mongo {
-      color: #08f96a;
-    }
-
-    &.vite {
-      color: #b04df6;
-    }
-    &.git {
-      color: #f05033;
-    }
-
-    &.github {
-      color: #000;
-    }
-
+   
     &:hover {
       transform: scale(1.2);
     }
@@ -79,7 +92,12 @@
 }
 
 @media (max-width: 768px) {
+  .knowledgeIconDiv{
+    @include m.flex(center, center, column-reverse);
+    gap: 25px;
+  }
+
   .iconDiv {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
   }
 }
