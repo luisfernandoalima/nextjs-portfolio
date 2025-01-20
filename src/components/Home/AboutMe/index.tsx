@@ -15,9 +15,9 @@ export const AboutMe = ({ dictionary }: { dictionary: IAboutMe }) => {
     <motion.div
       initial={"hidden"}
       whileInView={"onscreen"}
-      viewport={{ amount: 0.4, once: true }}
+      viewport={{ amount: 0.3, once: true }}
     >
-      <section className="aboutMeSection p-5">
+      <section className="aboutMeSection py-9 px-5">
         <div className="aboutMeDiv">
           <motion.div variants={imgVariant}>
           <Atropos shadow={false} highlight={false}>

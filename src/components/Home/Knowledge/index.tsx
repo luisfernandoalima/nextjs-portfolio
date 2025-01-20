@@ -34,8 +34,8 @@ export const Knowledge = ({ dictionary }: { dictionary: IKnowledge }) => {
       whileInView={"onscreen"}
       viewport={{ amount: 0.3, once: true }}
     >
-      <section className="knowledgeSection p-5 flex items-center justify-center flex-col">
-        <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
+      <section className="knowledgeSection py-9 px-5 flex items-center justify-center flex-col">
+        <h2 className="text-4xl font-semibold mb-2">{dictionary.title}</h2>
         <div className="iconDiv mt-4">
           {IconsList.map((item, index) => (
             <motion.div

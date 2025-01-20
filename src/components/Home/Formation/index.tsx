@@ -15,8 +15,8 @@ export const Formation = ({ dictionary }: { dictionary: IFormation }) => {
       whileInView={"onscreen"}
       viewport={{ amount: 0.3, once: true }}
     >
-      <section className="experienceSection p-5 flex items-center justify-center flex-col">
-        <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
+      <section className="experienceSection py-9 px-5 flex items-center justify-center flex-col">
+        <h2 className="text-4xl font-semibold mb-2">{dictionary.title}</h2>
 
         <div className="mt-4 flex justify-center items-center gap-6 flex-col">
           {formationInfo.map((info, index) => (

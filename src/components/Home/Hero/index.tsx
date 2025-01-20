@@ -39,7 +39,7 @@ export const Hero = ({ dictionary }: { dictionary: IHero }) => {
   }, [dictionary.function1, dictionary.function2]);
 
   return (
-    <section className="heroSection p-5">
+    <section className="heroSection py-9 px-5">
       <div className="heroHeader">
         <span className="text-xl">{dictionary.greetings}</span>
         <h1 className="text-5xl font-semibold">Luis Fernando</h1>
@@ -52,7 +52,7 @@ export const Hero = ({ dictionary }: { dictionary: IHero }) => {
         </div>
       </div>
       <Atropos shadow={false} highlight={false}>
-        <Image src={devIcon} alt="" height={450} width={450} />
+        <Image src={devIcon} alt="" height={490} width={490} />
       </Atropos>
     </section>
   );
