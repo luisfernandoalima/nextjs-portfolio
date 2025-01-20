@@ -24,16 +24,16 @@
                 "title": "Formação",
                 "formations": [
                     {
-                        "title": "Ensino Técnico em Desenvolvimento de Sistemas Integrado ao Médio.",
-                        "institution": "Etec Jardim Ângela",
-                        "startDate": "02/02/2021",
-                        "endDate": "31/12/2023"
-                    },
-                    {
                         "title": "Curso superior de tecnologia em Análise e Desenvolvimento de Sistemas.",
                         "institution": "FATEC Dom Paulo Evaristo Arns",
                         "startDate": "02/02/2024",
                         "endDate": "31/12/2026"
+                    },
+                    {
+                        "title": "Ensino Técnico em Desenvolvimento de Sistemas Integrado ao Médio.",
+                        "institution": "Etec Jardim Ângela",
+                        "startDate": "02/02/2021",
+                        "endDate": "31/12/2023"
                     }
                 ]
             }
