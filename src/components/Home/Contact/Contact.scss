@@ -1,0 +1,60 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+.contactSection {
+  background-color: var(--main-background-color);
+  color: var(--main-focus-text);
+}
+
+.buttonArea {
+  @include m.flex(center, center, column);
+  gap: 20px;
+
+  button {
+    @include m.flex(center, flex-start, row);
+    color: #fff;
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 6px 10px #0000007d;
+
+    font-size: 1.3em;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    svg {
+      font-size: 1.5em;
+    }
+    span {
+      font-weight: 600;
+      margin-left: 10px;
+    }
+
+    &.github {
+      background-color: #000;
+
+      &:hover {
+        background-color: #2e2e2e;
+      }
+    }
+
+    &.gmail {
+      background: #f44336;
+
+      &:hover {
+        background-color: #ff5347;
+      }
+    }
+
+    &.linkedin {
+      background-color: #007ab9;
+      &.hover {
+        background-color: #009eec;
+      }
+    }
+  }
+}

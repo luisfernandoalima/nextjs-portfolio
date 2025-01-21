@@ -39,3 +39,7 @@ export interface IFormation {
   title: string;
   formations: Iformations[];
 }
+
+export interface IContact {
+  title: string
+}

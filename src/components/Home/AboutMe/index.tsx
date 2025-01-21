@@ -7,7 +7,7 @@ import Image from "next/image";
 import Atropos from "atropos/react";
 
 import { IAboutMe } from "@/types/dictionary";
-import developerImage from "../../../../public/developer.png";
+import developerImage from "../../../../public/icons/developer.png";
 import "./AboutMe.scss";
 
 export const AboutMe = ({ dictionary }: { dictionary: IAboutMe }) => {

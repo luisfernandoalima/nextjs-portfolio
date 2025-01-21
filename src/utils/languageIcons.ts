@@ -1,5 +1,5 @@
-import flagBr from '../../public/brazil-icon.png'
-import flagUS from '../../public/us-icon.png'
+import flagBr from '../../public/icons/brazil-icon.png'
+import flagUS from '../../public/icons/us-icon.png'
 export const languageIcons = {
     pt: flagBr,
     en: flagUS

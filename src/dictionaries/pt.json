@@ -36,6 +36,9 @@
                         "endDate": "31/12/2023"
                     }
                 ]
+            },
+            "contact": {
+                "title": "Contato"
             }
         }
     },

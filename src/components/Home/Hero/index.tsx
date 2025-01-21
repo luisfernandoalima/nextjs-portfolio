@@ -10,7 +10,7 @@ import "atropos/css";
 import { LinkButton } from "../LinkButton";
 
 import Image from "next/image";
-import devIcon from "../../../../public/developer_icon.png";
+import devIcon from "../../../../public/icons/developer_icon.png";
 import { IHero } from "@/types/dictionary";
 import "./Hero.scss";
 
