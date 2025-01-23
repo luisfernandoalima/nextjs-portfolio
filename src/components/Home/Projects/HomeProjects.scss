@@ -1,0 +1,54 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+.section_projects {
+  @include m.flex(center, center, column);
+  height: max-content;
+  background-color: var(--main-background-secundary-color);
+
+  h2 {
+    color: var(--main-focus-text);
+  }
+
+  div {
+    @include m.flex(center, center, row);
+  }
+
+  article {
+    width: 50%;
+
+    a {
+      display: block;
+      text-align: center;
+      background-color: #001523;
+      color: #efefef;
+      border: 3px solid #00406c;
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  p {
+    color: var(--main-basic-text-color);
+  }
+}
+
+@media (max-width: 768px) {
+  .section_projects {
+    div {
+      @include m.flex(center, center, column);
+    }
+
+    img {
+      margin: 20px auto;
+      width: 250px;
+    }
+    
+    article {
+      width: 100%;
+    }
+  }
+}

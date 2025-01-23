@@ -39,6 +39,11 @@
             },
             "contact": {
                 "title": "Contact"
+            },
+            "projects": {
+                "title": "Projects",
+                "mainText": "See all my projects:",
+                "button": "Click here!"
             }
         }
     },

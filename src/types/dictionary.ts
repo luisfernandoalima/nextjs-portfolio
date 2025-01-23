@@ -43,3 +43,9 @@ export interface IFormation {
 export interface IContact {
   title: string
 }
+
+export interface IHomeProjects {
+  title: string,
+  mainText: string,
+  button: string
+}

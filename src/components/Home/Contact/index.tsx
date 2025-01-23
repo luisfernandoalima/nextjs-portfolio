@@ -21,7 +21,7 @@ export const Contact = ({ dictionary }: { dictionary: IContact }) => {
       viewport={{ amount: 0.3, once: true }}
     >
       <section className="contactSection py-9 px-5">
-        <h2 className="text-4xl font-semibold text-center  mb-2">
+        <h2 className="text-4xl font-semibold text-center mb-2">
           {dictionary.title}
         </h2>
         <div className="iconsDiv mt-4">
@@ -41,7 +41,7 @@ export const Contact = ({ dictionary }: { dictionary: IContact }) => {
               </motion.a>
             ))}
           </div>
-          <motion.div variants={imageVariant}>
+          <motion.div variants={imageVariant} className="imgDiv">
             <Atropos shadow={false} highlight={false}>
               <Image
                 src={imgContact}
