@@ -4,7 +4,7 @@
 .section_projects {
   @include m.flex(center, center, column);
   height: max-content;
-  background-color: var(--main-background-secundary-color);
+  background-color: var(--main-background-color);
 
   h2 {
     color: var(--main-focus-text);

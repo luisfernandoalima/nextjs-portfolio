@@ -1,6 +1,6 @@
 @use "./themes.scss";
 
-main {
+main.notFound {
   background-color: var(--main-background-color);
 
   color: var(--main-basic-text-color);
@@ -18,7 +18,7 @@ main {
 }
 
 @media(max-width: 768px){
-    main{
+    main.notFound {
         img{
             width: 300px;
         }

@@ -15,45 +15,39 @@ import { FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
 
 export const Contact = ({ dictionary }: { dictionary: IContact }) => {
   return (
-    <motion.div
-      initial={"hidden"}
-      whileInView={"onscreen"}
-      viewport={{ amount: 0.3, once: true }}
-    >
-      <section className="contactSection py-9 px-5">
-        <h2 className="text-4xl font-semibold text-center mb-2">
-          {dictionary.title}
-        </h2>
-        <div className="iconsDiv mt-4">
-          <div className="buttonArea">
-            {contactsLinks.map((link, index) => (
-              <motion.a
-                key={index}
-                href={link.link}
-                target="_blank"
-                variants={buttonsVariants}
-                custom={index}
-              >
-                <button className={link.class}>
-                  {link.icon}
-                  <span>{link.name}</span>
-                </button>
-              </motion.a>
-            ))}
-          </div>
-          <motion.div variants={imageVariant} className="imgDiv">
-            <Atropos shadow={false} highlight={false}>
-              <Image
-                src={imgContact}
-                alt="Contact Icon"
-                height={300}
-                width={300}
-              />
-            </Atropos>
-          </motion.div>
+    <section className="contactSection py-9 px-5">
+      <h2 className="text-4xl font-semibold text-center mb-2">
+        {dictionary.title}
+      </h2>
+      <div className="iconsDiv mt-4 mb-4">
+        <div className="buttonArea">
+          {contactsLinks.map((link, index) => (
+            <motion.a
+              key={index}
+              href={link.link}
+              target="_blank"
+              variants={buttonsVariants}
+              custom={index}
+            >
+              <button className={link.class}>
+                {link.icon}
+                <span>{link.name}</span>
+              </button>
+            </motion.a>
+          ))}
         </div>
-      </section>
-    </motion.div>
+        <motion.div variants={imageVariant} className="imgDiv">
+          <Atropos shadow={false} highlight={false}>
+            <Image
+              src={imgContact}
+              alt="Contact Icon"
+              height={300}
+              width={300}
+            />
+          </Atropos>
+        </motion.div>
+      </div>
+    </section>
   );
 };
 
