@@ -6,6 +6,11 @@
   color: var(--main-focus-text);
 }
 
+.iconsDiv{
+  @include m.flex(center, center, row);
+  gap: 2rem
+}
+
 .buttonArea {
   @include m.flex(center, center, column);
   gap: 20px;
