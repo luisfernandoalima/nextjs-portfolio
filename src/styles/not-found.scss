@@ -1,0 +1,26 @@
+@use "./themes.scss";
+
+main {
+  background-color: var(--main-background-color);
+
+  color: var(--main-basic-text-color);
+
+  a {
+    color: #fff;
+    background-color: #00406C;
+    border: 3px solid #00aaff;
+    transition: .3s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+  }
+}
+
+@media(max-width: 768px){
+    main{
+        img{
+            width: 300px;
+        }
+    }
+}
