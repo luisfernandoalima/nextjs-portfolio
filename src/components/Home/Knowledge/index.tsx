@@ -4,25 +4,9 @@ import * as motion from "motion/react-client";
 import React, { JSX, useState } from "react";
 import type { Variants } from "motion/react";
 
-import { RiNextjsFill } from "react-icons/ri";
-import {
-  SiTypescript,
-  SiTailwindcss,
-  SiVite,
-  SiMysql,
-  SiMongodb,
-} from "react-icons/si";
-import {
-  FaHtml5,
-  FaCss3,
-  FaSass,
-  FaJs,
-  FaBootstrap,
-  FaReact,
-  FaNode,
-  FaGit,
-  FaGithub,
-} from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+
+import { BadgeList } from "@/utils/badges";
 
 import { IKnowledge } from "@/types/dictionary";
 
@@ -49,7 +33,7 @@ export const Knowledge = ({ dictionary }: { dictionary: IKnowledge }) => {
         <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
         <div className="knowledgeIconDiv mt-6">
           <div className="iconDiv">
-            {IconsList.map((item, index) => (
+            {Object.values(BadgeList).map((item, index) => (
               <motion.div
                 key={index}
                 custom={index}
@@ -109,81 +93,3 @@ const divVariants: Variants = {
     }
   },
 };
-
-const IconsList = [
-  {
-    name: "HTML",
-    class: "html",
-    icon: <FaHtml5 />,
-  },
-  {
-    name: "CSS",
-    class: "css",
-    icon: <FaCss3 />,
-  },
-  {
-    name: "SASS",
-    class: "scss",
-    icon: <FaSass />,
-  },
-  {
-    name: "JavaScript",
-    class: "js",
-    icon: <FaJs />,
-  },
-  {
-    name: "TypeScript",
-    class: "ts",
-    icon: <SiTypescript />,
-  },
-  {
-    name: "React JS",
-    class: "react",
-    icon: <FaReact />,
-  },
-  {
-    name: "Next JS",
-    class: "next",
-    icon: <RiNextjsFill />,
-  },
-  {
-    name: "Bootstrap",
-    class: "bootstrap",
-    icon: <FaBootstrap />,
-  },
-  {
-    name: "TailwindCSS",
-    class: "tailwind",
-    icon: <SiTailwindcss />,
-  },
-  {
-    name: "NodeJS",
-    class: "node",
-    icon: <FaNode />,
-  },
-  {
-    name: "MySQL",
-    class: "mysql",
-    icon: <SiMysql />,
-  },
-  {
-    name: "MongoDB",
-    class: "mongo",
-    icon: <SiMongodb />,
-  },
-  {
-    name: "Vite",
-    class: "vite",
-    icon: <SiVite />,
-  },
-  {
-    name: "Git",
-    class: "git",
-    icon: <FaGit />,
-  },
-  {
-    name: "GitHub",
-    class: "github",
-    icon: <FaGithub />,
-  },
-];

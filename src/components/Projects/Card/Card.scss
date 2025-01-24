@@ -1,0 +1,5 @@
+@use '../../../styles/themes.scss';
+
+.card_body{
+    background-color: var(--main-card-background-color);
+}
