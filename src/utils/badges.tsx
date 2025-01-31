@@ -16,6 +16,8 @@ import {
   FaNode,
   FaGit,
   FaGithub,
+  FaPhp,
+  FaJava
 } from "react-icons/fa";
 
 export const BadgeList = {
@@ -94,4 +96,14 @@ export const BadgeList = {
     class: "github",
     icon: <FaGithub />,
   },
+  php: {
+    name: "PHP",
+    class: 'php',
+    icon: <FaPhp/>
+  },
+  java: {
+    name: "Java",
+    class: "java",
+    icon: <FaJava/>
+  }
 };

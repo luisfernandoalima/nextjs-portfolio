@@ -4,6 +4,21 @@ main{
     background-color: var(--main-background-color);
 }
 
+.project_title{
+    color: var(--main-focus-text);
+}
+
 .cardsDiv{
     padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-width: 768px){
+    .cardsDiv{
+        grid-template-columns: repeat(2, auto);
+    }
 }

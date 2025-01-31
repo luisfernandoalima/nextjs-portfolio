@@ -16,4 +16,14 @@ export const projectCardInfo: Record<string, IProjectCard> = {
     badge: ["html", "css", "sass", "bootstrap", "js", "node", "mongodb"],
     link: "mynotes",
   },
+  firstPortfolio: {
+    thumbnail: projectsThumbs.firstPortfolio,
+    badge: ["html", "css", "bootstrap", "js"],
+    link: "firstportfolio"
+  },
+  CyberBurguer: {
+    thumbnail: projectsThumbs.cyberburguer,
+    badge: ["html", "css", "bootstrap","js", "php", "java", "mysql"],
+    link: "cyber"
+  }
 };

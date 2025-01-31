@@ -18,7 +18,7 @@ export default async function Projects({
 
   return (
     <Container>
-      <h1>{dictionary.main.projects.title}</h1>
+      <h1 className="text-4xl font-semibold text-center mt-3 mb-3 w-full project_title">{dictionary.main.projects.title}</h1>
 
       <div className="cardsDiv">
         <ProjectCard
@@ -26,6 +26,18 @@ export default async function Projects({
           dictionary={dictionary.main.projects.mynotes}
           link={`/${lang}/mynotes`}
           projectBadges={projectCardInfo.MyNotes.badge}
+        />
+        <ProjectCard
+          image={projectCardInfo.firstPortfolio.thumbnail}
+          dictionary={dictionary.main.projects.firstPortfolio}
+          link={`/${lang}/mynotes`}
+          projectBadges={projectCardInfo.firstPortfolio.badge}
+        />
+        <ProjectCard
+          image={projectCardInfo.CyberBurguer.thumbnail}
+          dictionary={dictionary.main.projects.CyberBurguer}
+          link={`/${lang}/mynotes`}
+          projectBadges={projectCardInfo.CyberBurguer.badge}
         />
       </div>
     </Container>

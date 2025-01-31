@@ -51,6 +51,14 @@
             "mynotes": {
                 "title":"MyNotes",
                 "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes."
+            },
+            "firstPortfolio": {
+                "title":"Primeiro Portfolio",
+                "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências."
+            },
+            "CyberBurguer": {
+                "title":"CyberBurguer",
+                "description": "Sistema para gerênciamento de cozinha e pedidos."
             }
         }
     },

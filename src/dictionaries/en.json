@@ -51,6 +51,14 @@
             "mynotes": {
                 "title":"MyNotes",
                 "description": "MyNotes is a system designed to create reminders."
+            },
+            "firstPortfolio": {
+                "title":"First Portfolio",
+                "description": "One Page website dor professional portfolio, created to show my skills and experiences."
+            },
+            "CyberBurguer": {
+                "title":"CyberBurguer",
+                "description": "Kitchen and orders management system."
             }
         }
     },
