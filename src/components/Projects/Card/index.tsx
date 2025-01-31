@@ -1,46 +1,48 @@
+import React from "react";
+import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
-import "./Card.scss";
-import React from "react";
-
+import { IProjectCardDictionary } from "@/types/dictionary";
 import { BadgeList } from "@/utils/badges";
 
+import "./Card.scss";
 type BadgeKey = keyof typeof BadgeList;
 
 interface IProjectCard {
   image: StaticImageData;
-  title: string;
-  description: string;
+  dictionary: IProjectCardDictionary,
   projectBadges: BadgeKey[];
   link: string;
 }
 
 export const ProjectCard: React.FC<IProjectCard> = ({
   image,
-  title,
-  description,
+  dictionary,
   projectBadges,
   link,
 }) => {
   return (
     <div className={`card_body flex flex-col`}>
-      <div>
-        <Image src={image} alt={title} height={50} width={50} />
+      <div className="card_thumb">
+        <Image src={image} alt={dictionary.title} height={200} width={200} />
       </div>
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
+      <div className='card_info mt-1'>
+        <h1 className="text-xl font-medium">{dictionary.title}</h1>
+        <p className="text-sm">{dictionary.description}</p>
         <div className={`card_badges`}>
-          {projectBadges.map((item) => {
-            const badge = BadgeList[item];
-            return (
-              <li key={item}>
-                {badge.icon} {badge.name}
-              </li>
-            );
-          })}
+          <ul className="list-disc mt-1">
+            {projectBadges.map((item) => {
+              const badge = BadgeList[item];
+              return (
+                <li key={item} className="flex items-center gap-1">
+                  <span>{badge.icon}</span>
+                  {badge.name}
+                </li>
+              );
+            })}
+          </ul>
         </div>
-        <button>{link}</button>
+        <button className="text-lg font-medium"><Link href={`${link}`}>Visualizar</Link></button>
       </div>
     </div>
   );

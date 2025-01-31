@@ -1,0 +1,9 @@
+@use '../../../styles/themes.scss';
+
+main{
+    background-color: var(--main-background-color);
+}
+
+.cardsDiv{
+    padding: 15px;
+}

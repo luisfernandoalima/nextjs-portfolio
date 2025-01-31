@@ -49,3 +49,9 @@ export interface IHomeProjects {
   mainText: string,
   button: string
 }
+
+
+export interface IProjectCardDictionary {
+  title: string,
+  description: string
+}

@@ -1,31 +1,41 @@
-:root{
-    --menu-background-color: #00406C;
-    --menu-link-color: #caf0f8;
-    --menu-icon-color: #ffea00;
+:root {
+  --menu-background-color: #00406c;
+  --menu-link-color: #caf0f8;
+  --menu-icon-color: #ffea00;
 
-    --main-background-color: #D5DEEF;
-    --main-background-secundary-color: #B1C9EF;
-    --main-text-color: #00406C;
-    --main-focus-text: #001A2C;
-    --main-basic-text-color: #000;
+  --main-background-color: #d5deef;
+  --main-background-secundary-color: #b1c9ef;
+  --main-text-color: #00406c;
+  --main-focus-text: #001a2c;
+  --main-basic-text-color: #000;
 
-    --main-card-background-color: #efefef;
-    
-    --hr-color: #1c1c1c;
+  --main-card-background-color: #d8d8d8;
+
+  --projects-card-background-color: #b6cada;
+  --projects-card-text-color: #fff;
+  --projects-card-button-background: #0062a3;
+  --projects-card-scrollbar-background-color: #bcbcbc;
+
+  --hr-color: #1c1c1c;
 }
 
-[data-theme="dark"]{
-    --menu-background-color: #00111C;
-    --menu-link-color: #90e0ef;
-    --menu-icon-color: #ced4da;
+[data-theme="dark"] {
+  --menu-background-color: #00111c;
+  --menu-link-color: #90e0ef;
+  --menu-icon-color: #ced4da;
 
-    --main-background-color: #001523;
-    --main-background-secundary-color: #032030;
-    --main-text-color: #caf0f8;
-    --main-focus-text: #ffd60a;
-    --main-basic-text-color: #fff;
+  --main-background-color: #001523;
+  --main-background-secundary-color: #032030;
+  --main-text-color: #caf0f8;
+  --main-focus-text: #ffd60a;
+  --main-basic-text-color: #fff;
 
-    --main-card-background-color: #012a4a;
-    
-    --hr-color: #efefef;
+  --main-card-background-color: #012a4a;
+  
+  --projects-card-background-color: #002744;
+  --projects-card-text-color: #ffffff;
+  --projects-card-button-background: #0062a3;
+  --projects-card-scrollbar-background-color: #001523;
+
+  --hr-color: #efefef;
 }

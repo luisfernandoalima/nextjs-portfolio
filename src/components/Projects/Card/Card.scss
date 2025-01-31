@@ -1,5 +1,77 @@
-@use '../../../styles/themes.scss';
+@use "../../../styles/themes.scss";
 
-.card_body{
-    background-color: var(--main-card-background-color);
+.card_body {
+  background-color: var(--projects-card-background-color);
+  padding: 10px;
+  width: 250px;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 4px 6px 8px #0000006e;
+
+  .card_thumb {
+    img {
+      width: 100%;
+      height: 125px;
+      object-fit: cover;
+      border-radius: 7px;
+    }
+  }
+
+  .card_info {
+    h1 {
+      color: var(--main-focus-text);
+    }
+
+    p {
+      text-indent: 1rem;
+      color: var(--main-basic-text-color);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+    }
+
+    .card_badges {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      overflow: auto;
+      height: 100px;
+      ul {
+        list-style: disc;
+
+        li {
+          color: var(--main-basic-text-color);
+        }
+      }
+
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: var(--projects-card-scrollbar-background-color);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: gray; /* color of the scroll thumb */
+        border-radius: 20px; /* roundness of the scroll thumb */
+        border: 2px solid var(--projects-card-scrollbar-background-color); /* creates padding around scroll thumb */
+      }
+    }
+
+    button {
+      display: block;
+      text-align: center;
+      background-color: var(--projects-card-button-background);
+      color: var(--projects-card-text-color);
+      width: 100%;
+      border-radius: 7px;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: #0074c2;
+      }
+    }
+  }
 }

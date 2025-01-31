@@ -45,6 +45,13 @@
                 "mainText": "See all my projects:",
                 "button": "Click here!"
             }
+        },
+        "projects": {
+            "title": "Projects",
+            "mynotes": {
+                "title":"MyNotes",
+                "description": "MyNotes is a system designed to create reminders."
+            }
         }
     },
     "footer": {

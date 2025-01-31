@@ -45,6 +45,13 @@
                 "mainText":"Veja todos os meu projetos:",
                 "button": "Clique aqui!"
             }
+        },
+        "projects": {
+            "title": "Projetos",
+            "mynotes": {
+                "title":"MyNotes",
+                "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes."
+            }
         }
     },
     "footer": {
