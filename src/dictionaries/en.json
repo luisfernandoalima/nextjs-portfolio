@@ -48,6 +48,7 @@
         },
         "projects": {
             "title": "Projects",
+            "tecnologies": "Technologies Used:",
             "mynotes": {
                 "title":"MyNotes",
                 "description": "MyNotes is a system designed to create reminders."

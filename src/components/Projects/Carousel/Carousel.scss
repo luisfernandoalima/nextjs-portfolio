@@ -21,8 +21,22 @@
       border-radius: 10px;
 
       &.active {
-        border: 2px solid #ffff86;
+        border: 3px solid #ffaf2f;
       }
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--projects-card-scrollbar-background-color);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 20px;
+      border: 2px solid var(--projects-card-scrollbar-background-color);
     }
   }
 }

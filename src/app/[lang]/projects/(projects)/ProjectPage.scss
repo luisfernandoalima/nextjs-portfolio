@@ -1,0 +1,57 @@
+@use "../../../../styles/themes.scss";
+@use "../../../../styles/mixins.scss" as m;
+
+main {
+  background-color: var(--projects-background-color);
+}
+.project_header {
+  @include m.flex(center, space-between, row);
+  background-color: var(--projects-card-background-color);
+  border-radius: 10px;
+  height: fit-content;
+  padding: 1em;
+  max-width: 1140px;
+  margin: 2em auto;
+}
+
+.project_main_info {
+  width: 50%;
+
+  h1{
+    color: var(--main-focus-text);
+  }
+
+  h2, p{
+    color: var(--main-basic-text-color);
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  ul {
+    height: 150px;
+    overflow-y: auto;
+    li {
+      font-weight: 500;
+      color: var(--main-basic-text-color);
+
+      &::before {
+        content: "-";
+      }
+    }
+    &::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: var(--projects-card-scrollbar-background-color);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 20px;
+        border: 2px solid var(--projects-card-scrollbar-background-color);
+      }
+  }
+}

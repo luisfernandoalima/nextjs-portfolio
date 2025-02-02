@@ -1,5 +1,5 @@
 "use client";
-import { useState, MouseEvent } from "react";
+import { useState, MouseEvent, useEffect } from "react";
 import Image, { StaticImageData } from "next/image";
 
 import './Carousel.scss'
@@ -12,8 +12,12 @@ export const ProjectCarousel = ({ images }: { images: StaticImageData[] }) => {
         imagesOptions.forEach(img => {
             img.classList.remove('active')
         })
-    }
-
+    }  
+    
+    useEffect(() => {
+        const imagesOptions = document.querySelectorAll('.image_options img')
+        imagesOptions[0].classList.add('active')
+    }, [])
 
   const selectImage = (e: MouseEvent<HTMLImageElement>) => {
     setSelectedImage(e.currentTarget.src);
@@ -25,14 +29,14 @@ export const ProjectCarousel = ({ images }: { images: StaticImageData[] }) => {
     <div className="carousel_div">
       <Image src={selectedImage} alt="Selected Image" width={500} height={500}/>
 
-      <div className="image_options">
+      <div className="image_options py-2">
         {images.map((image, index) => (
           <Image
             src={image}
             alt={`Image 0${index}`}
             key={index}
             onClick={selectImage}
-            width={100} height={100}
+            width={500} height={500}
           />
         ))}
       </div>
