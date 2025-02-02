@@ -14,7 +14,7 @@ export const projectCardInfo: Record<string, IProjectCard> = {
   MyNotes: {
     thumbnail: projectsThumbs.mynotes,
     badge: ["html", "css", "sass", "bootstrap", "js", "node", "mongodb"],
-    link: "mynotes",
+    link: "my-notes",
   },
   firstPortfolio: {
     thumbnail: projectsThumbs.firstPortfolio,

@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [{ protocol: "https", hostname: "img.shields.io" }],
-    dangerouslyAllowSVG: true
+    dangerouslyAllowSVG: true,
+    domains: ['localhost']
   },
 };
 

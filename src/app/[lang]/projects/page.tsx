@@ -24,19 +24,19 @@ export default async function Projects({
         <ProjectCard
           image={projectCardInfo.MyNotes.thumbnail}
           dictionary={dictionary.main.projects.mynotes}
-          link={`/${lang}/mynotes`}
+          link={`/${lang}/projects/${projectCardInfo.MyNotes.link}`}
           projectBadges={projectCardInfo.MyNotes.badge}
         />
         <ProjectCard
           image={projectCardInfo.firstPortfolio.thumbnail}
           dictionary={dictionary.main.projects.firstPortfolio}
-          link={`/${lang}/mynotes`}
+          link={`/${lang}/projects/${projectCardInfo.firstPortfolio.link}`}
           projectBadges={projectCardInfo.firstPortfolio.badge}
         />
         <ProjectCard
           image={projectCardInfo.CyberBurguer.thumbnail}
           dictionary={dictionary.main.projects.CyberBurguer}
-          link={`/${lang}/mynotes`}
+          link={`/${lang}/projects/${projectCardInfo.CyberBurguer.link}`}
           projectBadges={projectCardInfo.CyberBurguer.badge}
         />
       </div>

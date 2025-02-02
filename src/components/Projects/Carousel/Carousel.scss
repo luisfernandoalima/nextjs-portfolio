@@ -1,0 +1,28 @@
+@use "../../../styles/themes.scss";
+@use "../../../styles/mixins.scss" as m;
+
+.carousel_div {
+  @include m.flex(center, center, column);
+  width: 50%;
+  gap: 10px;
+
+    &>img{
+        width: 100%;
+    }
+
+  .image_options {
+    @include m.flex(center, space-between, row);
+    gap: 10px;
+    width: 100%;
+    overflow-x: auto;
+
+    img {
+      width: 150px;
+      border-radius: 10px;
+
+      &.active {
+        border: 2px solid #ffff86;
+      }
+    }
+  }
+}
