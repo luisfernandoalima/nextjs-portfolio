@@ -4,24 +4,30 @@
 main {
   background-color: var(--projects-background-color);
 }
-.project_header {
-  @include m.flex(center, space-between, row);
+.project_header,
+.project_description {
   background-color: var(--projects-card-background-color);
   border-radius: 10px;
   height: fit-content;
   padding: 1em;
   max-width: 1140px;
   margin: 2em auto;
+  box-shadow: 4px 8px 12px #0000007c;
+}
+
+.project_header {
+  @include m.flex(center, space-between, row);
 }
 
 .project_main_info {
   width: 50%;
 
-  h1{
+  h1 {
     color: var(--main-focus-text);
   }
 
-  h2, p{
+  h2,
+  p {
     color: var(--main-basic-text-color);
   }
 
@@ -41,17 +47,46 @@ main {
       }
     }
     &::-webkit-scrollbar {
-        width: 10px;
-      }
+      width: 10px;
+    }
 
-      &::-webkit-scrollbar-track {
-        background: var(--projects-card-scrollbar-background-color);
-      }
+    &::-webkit-scrollbar-track {
+      background: var(--projects-card-scrollbar-background-color);
+    }
 
-      &::-webkit-scrollbar-thumb {
-        background-color: gray;
-        border-radius: 20px;
-        border: 2px solid var(--projects-card-scrollbar-background-color);
+    &::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 20px;
+      border: 2px solid var(--projects-card-scrollbar-background-color);
+    }
+  }
+}
+
+.project_description {
+  color: var(--main-basic-text-color);
+
+  ul {
+    li {
+      &::before {
+        content: "- ";
       }
+    }
+  }
+  .btn {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: 90%;
+    color: #fff;
+
+    a {
+      @include m.flex(center, center, row);
+      gap: 5px;
+    }
+
+    &.github_btn {
+      background-color: #000;
+    }
   }
 }

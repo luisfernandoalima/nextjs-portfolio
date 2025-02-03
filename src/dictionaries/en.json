@@ -49,27 +49,55 @@
         "projects": {
             "title": "Projects",
             "tecnologies": "Technologies Used:",
+            "buttonGitHub": "See repository",
             "mynotes": {
                 "title":"MyNotes",
                 "description": "MyNotes is a system designed to create reminders.",
                 "info": [
                     {
                         "type": "text",
-                        "title": "Descrição",
+                        "title": "Description",
                         "text": [
-                            "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
-                            "O sistema foi criado para colocar em prática meus novos conhecimentos em NodeJS."
+                            "MyNotes is a system designed to create reminders."
                         ]
                     },
                     {
                         "type": "list",
-                        "title": "Funcionalidades",
+                        "title": "Functions",
                         "text": [
-                            "Sistema de login (passport) realizado localmente (passport-local);",
-                            "Criptografia de senhas (bcryptjs);",
-                            "Sistema de template de páginas (express-handlebars);",
-                            "Consulta e registro no banco de dados (mongoose);",
-                            "Salvamento de imagens (multer)."
+                            "Login system (passport and passport-local);",
+                            "Passport encryption (bcryptjs);",
+                            "Layout template system (express-handlebars);",
+                            "Consultation and registration with a database (mongoose);",
+                            "Save image system (multer)."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Technologies",
+                        "text": [
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript;",
+                            "SASS;",
+                            "Handlebars;",
+                            "NodeJS;",
+                            "MongoDB."
+                        ]
+                    },
+                    {
+                        "type":"list",
+                        "title": "Node Modules",
+                        "text": [
+                            "bcryptjs;",
+                            "body-parser;",
+                            "express",
+                            "express-handlebars",
+                            "express-session;",
+                            "mongoose;",
+                            "multer;",
+                            "passport;",
+                            "passport-local"
                         ]
                     }
                 ]

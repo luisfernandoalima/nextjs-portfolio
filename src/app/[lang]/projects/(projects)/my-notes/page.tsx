@@ -1,6 +1,8 @@
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/lib/get-dictionary";
 
+import { FaGithub } from "react-icons/fa";
+
 import { mynotesImages } from "@/utils/projects/projectImages";
 import { projectCardInfo } from "@/utils/projects/projectCards";
 
@@ -34,8 +36,9 @@ export default async function MyNotes({
             badges={projectCardInfo.MyNotes.badge}
           />
         </section>
-        <section>
+        <section className="project_description">
           <ProjectInfo text={dictionary.main.projects.mynotes.info}/>
+          <button className="btn github_btn"><a href="https://github.com/luisfernandoalima/MyNotes" target="_blank" rel="noopener noreferrer"><span className="text-xl"><FaGithub/></span>{dictionary.main.projects.buttonGitHub}</a></button>
         </section>
       </Container>
     </>

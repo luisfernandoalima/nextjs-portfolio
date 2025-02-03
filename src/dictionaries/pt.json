@@ -49,6 +49,7 @@
         "projects": {
             "title": "Projetos",
             "tecnologies": "Tecnologias Utilizadas:",
+            "buttonGitHub": "Ver repositório",
             "mynotes": {
                 "title": "MyNotes",
                 "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
@@ -70,6 +71,34 @@
                             "Sistema de template de páginas (express-handlebars);",
                             "Consulta e registro no banco de dados (mongoose);",
                             "Salvamento de imagens (multer)."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Tecnologias Utilizadas",
+                        "text": [
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript;",
+                            "SASS;",
+                            "Handlebars;",
+                            "NodeJS;",
+                            "MongoDB."
+                        ]
+                    },
+                    {
+                        "type":"list",
+                        "title": "Módulos do NodeJS",
+                        "text": [
+                            "bcryptjs;",
+                            "body-parser;",
+                            "express",
+                            "express-handlebars",
+                            "express-session;",
+                            "mongoose;",
+                            "multer;",
+                            "passport;",
+                            "passport-local."
                         ]
                     }
                 ]
