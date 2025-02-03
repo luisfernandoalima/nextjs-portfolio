@@ -42,7 +42,7 @@
             },
             "projects": {
                 "title": "Projetos",
-                "mainText":"Veja todos os meu projetos:",
+                "mainText": "Veja todos os meu projetos:",
                 "button": "Clique aqui!"
             }
         },
@@ -50,15 +50,36 @@
             "title": "Projetos",
             "tecnologies": "Tecnologias Utilizadas:",
             "mynotes": {
-                "title":"MyNotes",
-                "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes."
+                "title": "MyNotes",
+                "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Descrição",
+                        "text": [
+                            "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
+                            "O sistema foi criado para colocar em prática meus novos conhecimentos em NodeJS."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Funcionalidades",
+                        "text": [
+                            "Sistema de login (passport) realizado localmente (passport-local);",
+                            "Criptografia de senhas (bcryptjs);",
+                            "Sistema de template de páginas (express-handlebars);",
+                            "Consulta e registro no banco de dados (mongoose);",
+                            "Salvamento de imagens (multer)."
+                        ]
+                    }
+                ]
             },
             "firstPortfolio": {
-                "title":"Primeiro Portfolio",
+                "title": "Primeiro Portfolio",
                 "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências."
             },
             "CyberBurguer": {
-                "title":"CyberBurguer",
+                "title": "CyberBurguer",
                 "description": "Sistema para gerênciamento de cozinha e pedidos."
             }
         }

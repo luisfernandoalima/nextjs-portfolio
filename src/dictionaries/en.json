@@ -51,7 +51,28 @@
             "tecnologies": "Technologies Used:",
             "mynotes": {
                 "title":"MyNotes",
-                "description": "MyNotes is a system designed to create reminders."
+                "description": "MyNotes is a system designed to create reminders.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Descrição",
+                        "text": [
+                            "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
+                            "O sistema foi criado para colocar em prática meus novos conhecimentos em NodeJS."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Funcionalidades",
+                        "text": [
+                            "Sistema de login (passport) realizado localmente (passport-local);",
+                            "Criptografia de senhas (bcryptjs);",
+                            "Sistema de template de páginas (express-handlebars);",
+                            "Consulta e registro no banco de dados (mongoose);",
+                            "Salvamento de imagens (multer)."
+                        ]
+                    }
+                ]
             },
             "firstPortfolio": {
                 "title":"First Portfolio",
