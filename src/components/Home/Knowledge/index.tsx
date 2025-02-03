@@ -6,7 +6,7 @@ import type { Variants } from "motion/react";
 
 import { FaHtml5 } from "react-icons/fa";
 
-import { BadgeList } from "@/utils/badges";
+import { BadgeList } from "@/utils/knowledgeBadges";
 
 import { IKnowledge } from "@/types/dictionary";
 
