@@ -28,6 +28,9 @@ export const Contact = ({ dictionary }: { dictionary: IContact }) => {
               target="_blank"
               variants={buttonsVariants}
               custom={index}
+              initial="hidden"
+              whileInView={"onscreen"}
+              viewport={{ amount: 0.3, once: true }}
             >
               <button className={link.class}>
                 {link.icon}
@@ -36,7 +39,13 @@ export const Contact = ({ dictionary }: { dictionary: IContact }) => {
             </motion.a>
           ))}
         </div>
-        <motion.div variants={imageVariant} className="imgDiv">
+        <motion.div
+          variants={imageVariant}
+          className="imgDiv"
+          initial="hidden"
+          whileInView={"onscreen"}
+          viewport={{ amount: 0.3, once: true }}
+        >
           <Atropos shadow={false} highlight={false}>
             <Image
               src={imgContact}
