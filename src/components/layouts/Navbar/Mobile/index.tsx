@@ -1,7 +1,8 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { IoClose } from "react-icons/io5";
 
 import { ThemeChanger } from "../ThemeChanger";
@@ -18,8 +19,17 @@ export const HamburguerMenu = ({
   dictionary: ITexts;
   lang: string;
 }) => {
+  const pathname = usePathname()
+
   const menuRef = useRef<HTMLDivElement | null>(null);
   const inputMenuRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    if(menuRef.current && inputMenuRef.current){
+      menuRef.current.style.right = "-500px";
+      inputMenuRef.current.checked = false;
+    }
+  }, [pathname])
 
   const showMenu = () => {
     if (menuRef.current && inputMenuRef.current) {
@@ -32,11 +42,6 @@ export const HamburguerMenu = ({
     }
   };
 
-  const closeMenu = () => {
-    if(inputMenuRef.current){
-      inputMenuRef.current.checked = false;
-    }
-  }
 
   return (
     <>
@@ -61,10 +66,10 @@ export const HamburguerMenu = ({
           <nav className="">
             <ul className="text-2xl flex flex-col gap-5">
               <li className="font-semibold">
-                <Link href={`/${lang}/`} onClick={closeMenu}>{dictionary.home}</Link>
+                <Link href={`/${lang}/`}>{dictionary.home}</Link>
               </li>
               <li className="font-semibold">
-                <Link href={`/${lang}/projects`} onClick={closeMenu}>{dictionary.projects}</Link>
+                <Link href={`/${lang}/projects`}>{dictionary.projects}</Link>
               </li>
               <li>
                 <Language />
