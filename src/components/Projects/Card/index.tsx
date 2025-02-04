@@ -42,7 +42,7 @@ export const ProjectCard: React.FC<IProjectCard> = ({
             })}
           </ul>
         </div>
-        <button className="text-lg font-medium"><Link href={`${link}`}>Visualizar</Link></button>
+        <Link href={`${link}`} className="cardBtn text-lg font-medium">Visualizar</Link>
       </div>
     </div>
   );
