@@ -1,24 +1,37 @@
-@use '../../../styles/themes.scss';
+@use "../../../styles/themes.scss";
 
-main{
-    background-color: var(--projects-background-color);
+main {
+  background-color: var(--projects-background-color);
 }
 
-.project_title{
-    color: var(--main-focus-text);
+.project_title {
+  color: var(--main-focus-text);
 }
 
-.cardsDiv{
-    padding: 15px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 25px;
-    align-items: center;
-    justify-items: center;
+.cardsDiv {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  align-items: center;
+  justify-items: center;
 }
 
-@media (max-width: 768px){
-    .cardsDiv{
-        grid-template-columns: repeat(2, auto);
-    }
+@media (max-width: 1024px) {
+  .cardsDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 841px) {
+  .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cardsDiv {
+    grid-template-columns: 1fr;
+  }
 }
