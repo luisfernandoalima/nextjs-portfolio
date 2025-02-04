@@ -90,3 +90,14 @@ main {
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .project_header {
+    @include m.flex(center, center, column);
+
+    .project_main_info {
+      width: 100%;
+    }
+  }
+}
