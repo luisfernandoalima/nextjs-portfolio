@@ -7,9 +7,10 @@ import { mynotesImages } from "@/utils/projects/projectImages";
 import { projectCardInfo } from "@/utils/projects/projectCards";
 
 import { Container } from "@/components/layouts/Container";
-import { ProjectCarousel } from "@/components/Projects/Carousel";
 import { ProjectMainInfo } from "@/components/Projects/MainInfo";
 import { ProjectInfo } from "@/components/Projects/Info";
+
+import { SwiperCarousel } from "@/components/Projects/SwiperCarousel";
 
 import '../ProjectPage.scss'
 
@@ -28,7 +29,7 @@ export default async function MyNotes({
     <>
       <Container>
         <section className="project_header">
-          <ProjectCarousel images={mynotesImages} />
+          <SwiperCarousel images={mynotesImages} />
           <ProjectMainInfo
             title={dictionary.main.projects.mynotes.title}
             subtitle={dictionary.main.projects.mynotes.description}
