@@ -108,7 +108,73 @@
             },
             "CyberBurguer": {
                 "title":"CyberBurguer",
-                "description": "Kitchen and orders management system."
+                "description": "Kitchen and orders management system.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text": [
+                            "This repository refers to Etec Jardim Ângela's Systems Development Course (DS).",
+                            "The original idea was to create a system for a fictional fast food restaurant with video game theme. To achieve this goal, we decided to create different systems for desktops, mobile devices and to use on the web."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Desktop",
+                        "text": [
+                            "Kitchen app;",
+                            "Checkout app;",
+                            "Administrator app."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Mobile",
+                        "text": [
+                            "Waiter app;",
+                            "Promotion Codes app for clients."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Mobile",
+                        "text": [
+                            "Promotional Site;",
+                            "Menu;",
+                            "Order screen."
+                        ]
+                    }, 
+                    {
+                        "type": "text",
+                        "title": "Used tools for desktop",
+                        "text": [
+                            "For all desktop applications, basic tools were used fot front-end: HTMLS5, CSS3, JavaScript. Bootstrap was also used to improve system design. Already in the back-end, PHP was the chosen language.",
+                            "To allow the system to be similar to a computer software, NW.JS was used to convert sites to desktop applications."
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Ferramentas utilizadas para o mobile",
+                        "text": [
+                            "The waiter application was developed using web tools for front-end (HTML5, CSS3, JavaScript, Bootstrap and PHP) and, with WebView, was possible to create an android app.",
+                            "The promotions application used by clients was developed in JAVA on Adroid Studio."
+                        ]
+                    }, {
+                        "type": "text",
+                        "title": "Ferramentas utilizadas para a Web",
+                        "text": [
+                           "All websites was developes using HTML5, CSS3, JavaScript, Bootstrap and PHP."
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Conclusão",
+                        "text": [
+                            "That network of systems that communicate between them can be used in various areas of the food industry, not just in fast food restaurants. With this, this work allowed us to notice how the creation of various systems that interact with each other and how to connect these systems to a company's necissities.",
+                            "More information about the team is in the repository README."
+                        ]
+                    }
+                ]
             }
         }
     },

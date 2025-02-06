@@ -7,7 +7,7 @@
         "home": {
             "hero": {
                 "greetings": "Olá, Eu sou",
-                "function1": "Desenvolvedo Full-Stack",
+                "function1": "Desenvolvedor Full-Stack",
                 "function2": "Desenvolvedor JavaScript"
             },
             "aboutMe": {
@@ -50,6 +50,7 @@
             "title": "Projetos",
             "tecnologies": "Tecnologias Utilizadas:",
             "buttonGitHub": "Ver repositório",
+            "hub_projetos_react": {},
             "mynotes": {
                 "title": "MyNotes",
                 "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",
@@ -87,7 +88,7 @@
                         ]
                     },
                     {
-                        "type":"list",
+                        "type": "list",
                         "title": "Módulos do NodeJS",
                         "text": [
                             "bcryptjs;",
@@ -103,13 +104,80 @@
                     }
                 ]
             },
+            "hub_projetos": {},
             "firstPortfolio": {
                 "title": "Primeiro Portfolio",
                 "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências."
             },
             "CyberBurguer": {
                 "title": "CyberBurguer",
-                "description": "Sistema para gerênciamento de cozinha e pedidos."
+                "description": "Sistema para gerênciamento de cozinha e pedidos.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Descrição",
+                        "text": [
+                            "Esse repositório é referente ao trabalho de conclusão de curso de Desenvolvimento de Sistemas (DS) da Etec Jardim Ângela.",
+                            "A ideia original era criar um sistema para uma hamburgueria fictícia com temática de videogames. Para atingir esse objetivo, decidimos criar diferentes sistemas para desktops, dispositivos mobile e para usar na web."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Desktop",
+                        "text": [
+                            "Aplicativo para a cozinha;",
+                            "Aplicativo para o caixa;",
+                            "Aplicativo para o administrador."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Mobile",
+                        "text": [
+                            "Aplicativo para o garçom;",
+                            "Aplicativo de códigos de promoções para o cliente."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Mobile",
+                        "text": [
+                            "Site promocional;",
+                            "Cardápio;",
+                            "Tela de pedidos."
+                        ]
+                    }, 
+                    {
+                        "type": "text",
+                        "title": "Ferramentas utilizadas para o desktop",
+                        "text": [
+                            "Para todos os aplicativos desktops foram utilizadas ferramentas básicas para o front-end: HTML5, CSS3. Javascript. O Bootstrap também foi utilizado para melhorar o design do sistema. Já no back-end, o PHP foi a linguagem escolhida.",
+                            "Para permitir que o sistema fosse similar a um programa próprio de computar, o NW.js foi utilizado para converter os sites para aplicativos desktops."
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Ferramentas utilizadas para o mobile",
+                        "text": [
+                            "O aplicativo utilizado pelo garçom foi criado com ferramentas para a web (HTML5, CSS3, Javascript, Bootstrap e PHP) e, com ajuda da tecnoligia WebView, foi possível criar um aplicativo android que emule o site.",
+                            "O aplicativo de promoções utilizado pelos clientes foi criado em JAVA no Android Studio."
+                        ]
+                    }, {
+                        "type": "text",
+                        "title": "Ferramentas utilizadas para a Web",
+                        "text": [
+                           "Todos os sistemas para a web foram criados utilizando HTML5, CSS3, Javascript, Bootstrap e PHP."
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Conclusão",
+                        "text": [
+                            "Essa rede de sistemas que se comunicam entre eles pode ser usadaa em diversas áreas do ramo alimentício, não somente o de hamburguerias que foi proposto pelo grupo. Com isso, esse trabalho permitiu que pudessemos notar como funciona a criação de diversos sistemas que interagem um com o outro e como ligar esses sistemas a necissidades de uma empresa.",
+                            "Mais informações sobre a equipe estão no README do repositório."
+                        ]
+                    }
+                ]
             }
         }
     },
