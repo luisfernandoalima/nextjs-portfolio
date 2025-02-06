@@ -24,6 +24,6 @@ export const projectCardInfo: Record<string, IProjectCard> = {
   CyberBurguer: {
     thumbnail: projectsThumbs.cyberburguer,
     badge: ["html", "css", "bootstrap","js", "php", "java", "mysql"],
-    link: "cyber"
+    link: "cyberburguer"
   }
 };
