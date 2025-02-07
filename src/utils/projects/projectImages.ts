@@ -6,6 +6,14 @@ import mynotes5 from '../../../public/projects/MyNotes/MyNotes05.png'
 
 export const mynotesImages = [mynotes1, mynotes2, mynotes3, mynotes4, mynotes5]
 
+import firstPortfolio1 from '../../../public/projects/firstPortfolio/portfolio001.jpg'
+import firstPortfolio2 from '../../../public/projects/firstPortfolio/portfolio002.png'
+import firstPortfolio3 from '../../../public/projects/firstPortfolio/portfolio003.png'
+import firstPortfolio4 from '../../../public/projects/firstPortfolio/portfolio004.png'
+import firstPortfolio5 from '../../../public/projects/firstPortfolio/portfolio005.png'
+
+export const firstPortfolioImage = [firstPortfolio1, firstPortfolio2, firstPortfolio3, firstPortfolio4, firstPortfolio5]
+
 import cyberburguer1 from '../../../public/projects/CyberBurguer/CyberBurguer001.png'
 import cyberburguer2 from '../../../public/projects/CyberBurguer/CyberBurguer002.png'
 import cyberburguer3 from '../../../public/projects/CyberBurguer/CyberBurguer003.png'

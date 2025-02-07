@@ -50,6 +50,7 @@
             "title": "Projetos",
             "tecnologies": "Tecnologias Utilizadas:",
             "buttonGitHub": "Ver repositório",
+            "projectLink": "Link do projeto",
             "hub_projetos_react": {},
             "mynotes": {
                 "title": "MyNotes",
@@ -107,7 +108,32 @@
             "hub_projetos": {},
             "firstPortfolio": {
                 "title": "Primeiro Portfolio",
-                "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências."
+                "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Descrição",
+                        "text": [
+                            "Meu primeiro portfolio para desenvolvedor front-end"
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Sobre mim",
+                        "text": [
+                            "Atualmente sou técnico de Desenvolvimento de Sistemas formado pela Etec Jardim Ângela e estou cursando Análise e Desenvolvimento de Sistemas na Fatec Zona Sul - Dom Paulo Evaristo Arns."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Tecnologias Utilizadas",
+                        "text": [
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript."
+                        ]
+                    }
+                ]
             },
             "CyberBurguer": {
                 "title": "CyberBurguer",
@@ -146,7 +172,7 @@
                             "Cardápio;",
                             "Tela de pedidos."
                         ]
-                    }, 
+                    },
                     {
                         "type": "text",
                         "title": "Ferramentas utilizadas para o desktop",
@@ -162,11 +188,12 @@
                             "O aplicativo utilizado pelo garçom foi criado com ferramentas para a web (HTML5, CSS3, Javascript, Bootstrap e PHP) e, com ajuda da tecnoligia WebView, foi possível criar um aplicativo android que emule o site.",
                             "O aplicativo de promoções utilizado pelos clientes foi criado em JAVA no Android Studio."
                         ]
-                    }, {
+                    },
+                    {
                         "type": "text",
                         "title": "Ferramentas utilizadas para a Web",
                         "text": [
-                           "Todos os sistemas para a web foram criados utilizando HTML5, CSS3, Javascript, Bootstrap e PHP."
+                            "Todos os sistemas para a web foram criados utilizando HTML5, CSS3, Javascript, Bootstrap e PHP."
                         ]
                     },
                     {

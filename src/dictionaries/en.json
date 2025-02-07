@@ -50,8 +50,9 @@
             "title": "Projects",
             "tecnologies": "Technologies Used:",
             "buttonGitHub": "See repository",
+            "projectLink": "Project link",
             "mynotes": {
-                "title":"MyNotes",
+                "title": "MyNotes",
                 "description": "MyNotes is a system designed to create reminders.",
                 "info": [
                     {
@@ -86,7 +87,7 @@
                         ]
                     },
                     {
-                        "type":"list",
+                        "type": "list",
                         "title": "Node Modules",
                         "text": [
                             "bcryptjs;",
@@ -103,11 +104,36 @@
                 ]
             },
             "firstPortfolio": {
-                "title":"First Portfolio",
-                "description": "One Page website dor professional portfolio, created to show my skills and experiences."
+                "title": "First Portfolio",
+                "description": "One Page website dor professional portfolio, created to show my skills and experiences.",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text": [
+                            "My first front-end developer portfolio"
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "title": "Sobre mim",
+                        "text": [
+                            "I am currently Systems Development Technician formed by Etec Jardim Ângela and I am studying Systems Analysis and Development at Fatec Zona Sul - Dom Paulo Evaristo Arns."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Technologies",
+                        "text": [
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript."
+                        ]
+                    }
+                ]
             },
             "CyberBurguer": {
-                "title":"CyberBurguer",
+                "title": "CyberBurguer",
                 "description": "Kitchen and orders management system.",
                 "info": [
                     {
@@ -143,7 +169,7 @@
                             "Menu;",
                             "Order screen."
                         ]
-                    }, 
+                    },
                     {
                         "type": "text",
                         "title": "Used tools for desktop",
@@ -159,11 +185,12 @@
                             "The waiter application was developed using web tools for front-end (HTML5, CSS3, JavaScript, Bootstrap and PHP) and, with WebView, was possible to create an android app.",
                             "The promotions application used by clients was developed in JAVA on Adroid Studio."
                         ]
-                    }, {
+                    },
+                    {
                         "type": "text",
                         "title": "Ferramentas utilizadas para a Web",
                         "text": [
-                           "All websites was developes using HTML5, CSS3, JavaScript, Bootstrap and PHP."
+                            "All websites was developes using HTML5, CSS3, JavaScript, Bootstrap and PHP."
                         ]
                     },
                     {
