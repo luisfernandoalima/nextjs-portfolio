@@ -21,7 +21,7 @@ export const ProjectInfo: React.FC<IProjectInfo> = ({ text }) => {
           {item.type === "list" ? (
             <ul className="ml-4">
               {item.text.map((line, i) => (
-                <li key={i}>{line}</li>
+                <li key={i} className="mt-1">{line}</li>
               ))}
             </ul>
           ) : (

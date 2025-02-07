@@ -1,3 +1,11 @@
+import hubReact1 from '../../../public/projects/hubProjetosReact/hubProjetosReact001.png'
+import hubReact2 from '../../../public/projects/hubProjetosReact/hubProjetosReact002.png'
+import hubReact3 from '../../../public/projects/hubProjetosReact/hubProjetosReact003.png'
+import hubReact4 from '../../../public/projects/hubProjetosReact/hubProjetosReact004.png'
+import hubReact5 from '../../../public/projects/hubProjetosReact/hubProjetosReact005.png'
+
+export const hubReactImages = [hubReact1, hubReact2, hubReact3, hubReact4, hubReact5]
+
 import mynotes1 from '../../../public/projects/MyNotes/MyNotes01.png'
 import mynotes2 from '../../../public/projects/MyNotes/MyNotes02.png'
 import mynotes3 from '../../../public/projects/MyNotes/MyNotes03.png'

@@ -51,7 +51,10 @@
             "tecnologies": "Tecnologias Utilizadas:",
             "buttonGitHub": "Ver repositório",
             "projectLink": "Link do projeto",
-            "hub_projetos_react": {},
+            "hub_projetos_react": {
+                "title": "Hub de Projetos - React",
+                "description": "Site para colocar os meus projetos desenvolvido em react"
+            },
             "mynotes": {
                 "title": "MyNotes",
                 "description": "O MyNotes é um sistema de notas desenvolvido para criar lembretes.",

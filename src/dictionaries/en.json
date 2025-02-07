@@ -51,6 +51,10 @@
             "tecnologies": "Technologies Used:",
             "buttonGitHub": "See repository",
             "projectLink": "Project link",
+            "hub_projetos_react": {
+                "title": "Projects Hub - React",
+                "description": "Website developed using react to link all my projects"
+            },
             "mynotes": {
                 "title": "MyNotes",
                 "description": "MyNotes is a system designed to create reminders.",
@@ -105,7 +109,7 @@
             },
             "firstPortfolio": {
                 "title": "First Portfolio",
-                "description": "One Page website dor professional portfolio, created to show my skills and experiences.",
+                "description": "One Page website for professional portfolio, created to show my skills and experiences.",
                 "info": [
                     {
                         "type": "text",
@@ -116,7 +120,7 @@
                     },
                     {
                         "type": "text",
-                        "title": "Sobre mim",
+                        "title": "About me",
                         "text": [
                             "I am currently Systems Development Technician formed by Etec Jardim Ângela and I am studying Systems Analysis and Development at Fatec Zona Sul - Dom Paulo Evaristo Arns."
                         ]

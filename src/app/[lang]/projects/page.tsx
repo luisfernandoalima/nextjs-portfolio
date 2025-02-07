@@ -21,6 +21,12 @@ export default async function Projects({
       <h1 className="text-4xl font-semibold text-center mt-3 mb-3 w-full project_title">{dictionary.main.projects.title}</h1>
 
       <div className="cardsDiv">
+        <ProjectCard 
+          image={projectCardInfo.HubProjetosReact.thumbnail}
+          dictionary={dictionary.main.projects.hub_projetos_react}
+          link={`/${lang}/projects/${projectCardInfo.HubProjetosReact.link}`}
+          projectBadges={projectCardInfo.HubProjetosReact.badge}
+        />
         <ProjectCard
           image={projectCardInfo.MyNotes.thumbnail}
           dictionary={dictionary.main.projects.mynotes}
