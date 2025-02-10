@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu portfolio como desenvolvedor Full-Stack JavaScript
 
-## Getting Started
+## Sobre o projeto
 
-First, run the development server:
+O projeto é um site criado utilizando o Next.JS (Framework React para a Web), criado para servir como portfolio profissional como **desenvolvedor javascript full-stack**. O projeto também possui uma sessão com projetos que desenvolvi e tenho interesse em mostrá-los
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O projeto está hospedado na **Vercel** e possui um repositório no GitHub.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Links:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Site hospedado]()
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Repositório](https://github.com/luisfernandoalima/nextjs-portfolio)
 
-## Learn More
+## Sobre mim
 
-To learn more about Next.js, take a look at the following resources:
+Meu nome é Luis Fernando e eu sou desenvolvedor full-stack JavaScript. Meu primeiro contato com programação foi em 2021, quando estudei na Etec Jardim Ângela no curso técnico de Desenvolvimento de Sistemas (DS) junto ao ensino médio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Atualmente, estudo Análise e Desenvolvimento de Sistemas na FATEC Zona Sul e estudo técnologias JavaScript focadas na web (ReactJS, NextJS, NodeJS e ExpressJS).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Conhecimentos
 
-## Deploy on Vercel
+Possuo conhecimentos nas principais tecnologias para a Web (HTML5, CSS3 e JavaScript), mas, também, em tecnologias que utilizam o JavaScript (TypeScript, React.js, Next.js, Node.js e Express.js). Também possuo conhecimentos em ferramentas para o desenvolvimento de aplicações front-end (Sass, Bootstrap e TailwindCSS).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Outras tecnologias e ferramentas que utilizo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Banco de Dados SQL (MySQL);
+
+- Banco de Dados NoSQL (MongoDB);
+
+- Vite;
+
+- Git e GitHub
