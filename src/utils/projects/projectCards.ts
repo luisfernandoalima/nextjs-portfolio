@@ -14,7 +14,7 @@ export const projectCardInfo: Record<string, IProjectCard> = {
   HubProjetosReact: {
     thumbnail: projectsThumbs.hubReact,
     badge: ["html", "css", "sass", 'js', 'ts', 'react', 'tailwind', 'vite'],
-    link:'hubProjetos-react'
+    link:'HubDeProjetos-react'
   },
   MyNotes: {
     thumbnail: projectsThumbs.mynotes,

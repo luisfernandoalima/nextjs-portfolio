@@ -53,7 +53,23 @@
             "projectLink": "Project link",
             "hub_projetos_react": {
                 "title": "Projects Hub - React",
-                "description": "Website developed using react to link all my projects"
+                "description": "Website developed using react to link all my projects",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text":[
+                            "Project created to serve as an environment to locate my projects as a JavaScript developer."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Technologies",
+                        "text": [
+                            "HTML5;","CSS3;","SASS;","JavaScript;","TypeScript;","ReactJS;", "Tailwind;", "Vite."
+                        ]
+                    }
+                ]
             },
             "mynotes": {
                 "title": "MyNotes",

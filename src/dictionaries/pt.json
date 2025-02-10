@@ -53,7 +53,23 @@
             "projectLink": "Link do projeto",
             "hub_projetos_react": {
                 "title": "Hub de Projetos - React",
-                "description": "Site para colocar os meus projetos desenvolvido em react"
+                "description": "Site para colocar os meus projetos desenvolvido em react",
+                "info": [
+                    {
+                        "type":"text",
+                        "title": "Descrição",
+                        "text":[
+                            "Projeto criado para servir de ambiente para localizar meus projetos como desenvolvedor JavaScript."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Tecnologias Utilizadas",
+                        "text": [
+                            "HTML5;","CSS3;","SASS;","JavaScript;","TypeScript;","ReactJS;", "Tailwind;", "Vite."
+                        ]
+                    }
+                ]
             },
             "mynotes": {
                 "title": "MyNotes",
