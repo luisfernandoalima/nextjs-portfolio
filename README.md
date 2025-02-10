@@ -30,4 +30,18 @@ Outras tecnologias e ferramentas que utilizo:
 
 - Vite;
 
-- Git e GitHub
+- Git e GitHub.
+
+## Formação
+
+- 2024 - 2026 : Curso superior de tecnologia em Análise e Desenvolvimento de Sistemas. (FATEC Dom Paulo Evaristo Arns)
+
+- 2021 - 2023 : Ensino Técnico em Desenvolvimento de Sistemas Integrado ao Médio. (Etec Jardim Ângela)
+
+## Contato
+
+- [GitHub]()
+
+- [E-mail]()
+
+- [LinkedIn]()
