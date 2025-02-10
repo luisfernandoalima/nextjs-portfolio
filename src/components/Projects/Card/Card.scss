@@ -3,7 +3,7 @@
 .card_body {
   background-color: var(--projects-card-background-color);
   padding: 10px;
-  width: 250px;
+  width: 100%;
   height: fit-content;
   border-radius: 10px;
   box-shadow: 4px 6px 8px #0000006e;
@@ -71,6 +71,20 @@
 
       &:hover {
         background-color: #0074c2;
+      }
+    }
+  }
+}
+
+@media (max-width: 841px) {
+  .card_body {
+    .card_info {
+      h1 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
       }
     }
   }
