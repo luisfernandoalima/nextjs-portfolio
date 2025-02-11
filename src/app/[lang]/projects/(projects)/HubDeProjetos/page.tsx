@@ -3,7 +3,7 @@ import { getDictionary } from "@/lib/get-dictionary";
 
 import { FaGithub } from "react-icons/fa";
 
-import { hubReactImages } from "@/utils/projects/projectImages";
+import { hupProjetosImages } from "@/utils/projects/projectImages";
 import { projectCardInfo } from "@/utils/projects/projectCards";
 
 import { Container } from "@/components/layouts/Container";
@@ -29,19 +29,19 @@ export default async function MyNotes({
     <>
       <Container>
         <section className="project_header">
-          <SwiperCarousel images={hubReactImages} />
+          <SwiperCarousel images={hupProjetosImages} />
           <ProjectMainInfo
-            title={dictionary.main.projects.hub_projetos_react.title}
-            subtitle={dictionary.main.projects.hub_projetos_react.description}
+            title={dictionary.main.projects.hub_projetos.title}
+            subtitle={dictionary.main.projects.hub_projetos.description}
             tagsText={dictionary.main.projects.tecnologies}
-            badges={projectCardInfo.HubProjetosReact.badge}
+            badges={projectCardInfo.FirstHubProjetos.badge}
             linkText={dictionary.main.projects.projectLink}
-            projectLink={"https://luisfernandoalima.github.io/hub-de-projetos-react/"}
+            projectLink={"https://luisfernandoalima.github.io/hub-de-projetos/"}
           />
         </section>
         <section className="project_description">
-          <ProjectInfo text={dictionary.main.projects.hub_projetos_react.info}/>
-          <button className="btn github_btn"><a href="https://github.com/luisfernandoalima/hub-de-projetos-react" target="_blank" rel="noopener noreferrer"><span className="text-xl"><FaGithub/></span>{dictionary.main.projects.buttonGitHub}</a></button>
+          <ProjectInfo text={dictionary.main.projects.hub_projetos.info}/>
+          <button className="btn github_btn"><a href="https://github.com/luisfernandoalima/hub-de-projetos" target="_blank" rel="noopener noreferrer"><span className="text-xl"><FaGithub/></span>{dictionary.main.projects.buttonGitHub}</a></button>
         </section>
       </Container>
     </>
