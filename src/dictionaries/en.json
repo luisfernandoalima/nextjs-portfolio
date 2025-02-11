@@ -123,6 +123,26 @@
                     }
                 ]
             },
+            "hub_projetos": {
+                "title": "First Projects Hub",
+                "description": "Website developed using react to link all my projects",
+                "info": [
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text":[
+                            "Project created to serve as an environment to locate my projects as a JavaScript developer."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Technologies",
+                        "text": [
+                            "HTML5;","CSS3;","JavaScript;", "Bootstrap."
+                        ]
+                    }
+                ]
+            },
             "firstPortfolio": {
                 "title": "First Portfolio",
                 "description": "One Page website for professional portfolio, created to show my skills and experiences.",

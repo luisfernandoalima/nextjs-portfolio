@@ -124,7 +124,26 @@
                     }
                 ]
             },
-            "hub_projetos": {},
+            "hub_projetos": {
+                "title": "Primeiro Hub de Projetos",
+                "description": "Site para colocar os meus projetos desenvolvido em react",
+                "info": [
+                    {
+                        "type":"text",
+                        "title": "Descrição",
+                        "text":[
+                            "Projeto criado para servir de ambiente para localizar meus projetos como desenvolvedor JavaScript."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Tecnologias Utilizadas",
+                        "text": [
+                            "HTML5;","CSS3;","JavaScript;", "Bootstrap."
+                        ]
+                    }
+                ]
+            },
             "firstPortfolio": {
                 "title": "Primeiro Portfolio",
                 "description": "Site One Page para Portfolio Profissional, criado com o objetivo de mostrar de forma clara as minhas habilidades e experiências.",

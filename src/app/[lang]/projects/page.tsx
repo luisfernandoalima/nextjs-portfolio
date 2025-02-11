@@ -27,17 +27,17 @@ export default async function Projects({
           link={`/${lang}/projects/${projectCardInfo.HubProjetosReact.link}`}
           projectBadges={projectCardInfo.HubProjetosReact.badge}
         />
-        <ProjectCard 
-          image={projectCardInfo.HubProjetosReact.thumbnail}
-          dictionary={dictionary.main.projects.hub_projetos_react}
-          link={`/${lang}/projects/${projectCardInfo.HubProjetosReact.link}`}
-          projectBadges={projectCardInfo.HubProjetosReact.badge}
-        />
         <ProjectCard
           image={projectCardInfo.MyNotes.thumbnail}
           dictionary={dictionary.main.projects.mynotes}
           link={`/${lang}/projects/${projectCardInfo.MyNotes.link}`}
           projectBadges={projectCardInfo.MyNotes.badge}
+        />
+        <ProjectCard 
+          image={projectCardInfo.FirstHubProjetos.thumbnail}
+          dictionary={dictionary.main.projects.hub_projetos}
+          link={`/${lang}/projects/${projectCardInfo.FirstHubProjetos.link}`}
+          projectBadges={projectCardInfo.FirstHubProjetos.badge}
         />
         <ProjectCard
           image={projectCardInfo.firstPortfolio.thumbnail}
