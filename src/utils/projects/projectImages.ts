@@ -1,3 +1,12 @@
+// Taskly
+import taskly001 from '../../../public/projects/Taskly/taskly001.png';
+import taskly002 from '../../../public/projects/Taskly/taskly002.png';
+import taskly003 from '../../../public/projects/Taskly/taskly003.png';
+import taskly004 from '../../../public/projects/Taskly/taskly004.png';
+import taskly005 from '../../../public/projects/Taskly/taskly005.png';
+
+export const tasklyImages = [taskly001, taskly002, taskly003, taskly004, taskly005]
+
 // Hub de Projetos REACT
 import hubReact1 from '../../../public/projects/hubProjetosReact/hubProjetosReact001.png'
 import hubReact2 from '../../../public/projects/hubProjetosReact/hubProjetosReact002.png'

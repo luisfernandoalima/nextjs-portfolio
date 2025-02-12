@@ -22,6 +22,12 @@ export default async function Projects({
 
       <div className="cardsDiv">
         <ProjectCard 
+          image={projectCardInfo.taskly.thumbnail}
+          dictionary={dictionary.main.projects.taskly}
+          link={`/${lang}/projects/${projectCardInfo.taskly.link}`}
+          projectBadges={projectCardInfo.taskly.badge}
+        />
+        <ProjectCard 
           image={projectCardInfo.HubProjetosReact.thumbnail}
           dictionary={dictionary.main.projects.hub_projetos_react}
           link={`/${lang}/projects/${projectCardInfo.HubProjetosReact.link}`}

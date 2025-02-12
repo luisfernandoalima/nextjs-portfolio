@@ -11,6 +11,11 @@ interface IProjectCard {
 }
 
 export const projectCardInfo: Record<string, IProjectCard> = {
+  taskly: {
+    thumbnail: projectsThumbs.taskly,
+    badge: ["html", "css", "js", "ts", "react", "tailwind", "vite", "node", "mongodb"],
+    link:"taskly"
+  },
   HubProjetosReact: {
     thumbnail: projectsThumbs.hubReact,
     badge: ["html", "css", "sass", "js", "ts", "react", "tailwind", "vite"],

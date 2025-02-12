@@ -51,6 +51,45 @@
             "tecnologies": "Technologies Used:",
             "buttonGitHub": "See repository",
             "projectLink": "Project link",
+            "taskly": {
+                "title": "Taskly",
+                "description": "\"Taskly\" is a to-do list site.",
+                "info":[
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text": [
+                            "\"Taskly\" is a task organization site using ReactJS and Express."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Functions",
+                        "text": [
+                            "Registration and login system;",
+                            "Authentication system;",
+                            "Task registration and updating system;",
+                            "Responsiveness for mobile."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Technologies",
+                        "text": [
+                           "HTML;",
+                           "CSS;",
+                           "SASS;",
+                           "JavaScript;",
+                           "TypeScript;",
+                            "ReactJS;",
+                            "Tailwind;",
+                            "NodeJS;",
+                            "Express;",
+                            "MongoDB."
+                        ]
+                    }
+                ]
+            },
             "hub_projetos_react": {
                 "title": "Projects Hub - React",
                 "description": "Website developed using react to link all my projects",
@@ -58,7 +97,7 @@
                     {
                         "type": "text",
                         "title": "Description",
-                        "text":[
+                        "text": [
                             "Project created to serve as an environment to locate my projects as a JavaScript developer."
                         ]
                     },
@@ -66,7 +105,14 @@
                         "type": "list",
                         "title": "Technologies",
                         "text": [
-                            "HTML5;","CSS3;","SASS;","JavaScript;","TypeScript;","ReactJS;", "Tailwind;", "Vite."
+                            "HTML5;",
+                            "CSS3;",
+                            "SASS;",
+                            "JavaScript;",
+                            "TypeScript;",
+                            "ReactJS;",
+                            "Tailwind;",
+                            "Vite."
                         ]
                     }
                 ]
@@ -130,7 +176,7 @@
                     {
                         "type": "text",
                         "title": "Description",
-                        "text":[
+                        "text": [
                             "Project created to serve as an environment to locate my projects as a JavaScript developer."
                         ]
                     },
@@ -138,7 +184,10 @@
                         "type": "list",
                         "title": "Technologies",
                         "text": [
-                            "HTML5;","CSS3;","JavaScript;", "Bootstrap."
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript;",
+                            "Bootstrap."
                         ]
                     }
                 ]

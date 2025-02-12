@@ -51,6 +51,45 @@
             "tecnologies": "Tecnologias Utilizadas:",
             "buttonGitHub": "Ver repositório",
             "projectLink": "Link do projeto",
+            "taskly": {
+                "title": "Taskly",
+                "description": "\"Taskly\" é um site de organização de tarefas utilizando ReactJS e Express.",
+                "info":[
+                    {
+                        "type": "text",
+                        "title": "Description",
+                        "text": [
+                            "\"Taskly\" é um site de organização de tarefas utilizando ReactJS e Express."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Funções",
+                        "text": [
+                            "Sistema de cadastro e login;",
+                            "Sistema de autenticação;",
+                            "Sistema de registro e atualização de tarefas;",
+                            "Responsividade para o mobile."
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "title": "Tecnologias Utilizadas",
+                        "text": [
+                           "HTML;",
+                           "CSS;",
+                           "SASS;",
+                           "JavaScript;",
+                           "TypeScript;",
+                            "ReactJS;",
+                            "Tailwind;",
+                            "NodeJS;",
+                            "Express;",
+                            "MongoDB."
+                        ]
+                    }
+                ]
+            },
             "hub_projetos_react": {
                 "title": "Hub de Projetos - React",
                 "description": "Site para colocar os meus projetos desenvolvido em react",
