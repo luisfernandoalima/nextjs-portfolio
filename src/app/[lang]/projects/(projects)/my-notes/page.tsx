@@ -14,6 +14,12 @@ import { SwiperCarousel } from "@/components/Projects/SwiperCarousel";
 
 import '../ProjectPage.scss'
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects - MyNotes"
+}
+
 export default async function MyNotes({
   params,
 }: {

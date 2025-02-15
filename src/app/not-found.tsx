@@ -5,10 +5,15 @@ import "atropos/css";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
+import { Metadata } from "next";
 
 import img from "../../public/icons/404.png";
 
 import "@/styles/not-found.scss";
+
+export const metadata:Metadata = {
+  title: "Page not found"
+}
 
 export default function NotFound() {
   useEffect(() => {
@@ -24,7 +29,7 @@ export default function NotFound() {
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="text-4xl font-semibold flex flex-col gap-2">
           404 Error:
-          <span className="text-2xl font-medium">Page not found!</span>{" "}
+          <span className="text-2xl font-medium">Page not found!</span>
         </h1>
         <Link
           href={"/"}

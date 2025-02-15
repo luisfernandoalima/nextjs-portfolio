@@ -14,7 +14,13 @@ import { SwiperCarousel } from "@/components/Projects/SwiperCarousel";
 
 import '../ProjectPage.scss'
 
-export default async function MyNotes({
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects - CyberBurguer"
+}
+
+export default async function CyberBurguer({
   params,
 }: {
   params: Promise<{ lang: Locale }>;

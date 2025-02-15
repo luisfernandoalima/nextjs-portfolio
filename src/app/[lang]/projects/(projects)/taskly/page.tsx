@@ -14,7 +14,13 @@ import { SwiperCarousel } from "@/components/Projects/SwiperCarousel";
 
 import '../ProjectPage.scss'
 
-export default async function MyNotes({
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects - Taskly"
+}
+
+export default async function taskly({
   params,
 }: {
   params: Promise<{ lang: Locale }>;

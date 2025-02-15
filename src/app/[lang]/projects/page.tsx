@@ -1,11 +1,17 @@
 import { getDictionary } from "@/lib/get-dictionary";
 import { Locale } from "@/i18n-config";
 
+import { Metadata } from "next";
+
 import { Container } from "@/components/layouts/Container";
 import { ProjectCard } from "@/components/Projects/Card";
 import { projectCardInfo } from "@/utils/projects/projectCards";
 
 import "./Projects.scss";
+
+export const metadata: Metadata = {
+  title: "Projects"
+}
 
 export default async function Projects({
   params,
