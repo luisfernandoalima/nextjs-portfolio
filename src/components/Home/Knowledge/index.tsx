@@ -24,11 +24,6 @@ export const Knowledge = ({ dictionary }: { dictionary: IKnowledge }) => {
   };
 
   return (
-    <motion.div
-      initial="offscreen"
-      whileInView={"onscreen"}
-      viewport={{ amount: 0.3, once: true }}
-    >
       <section className="knowledgeSection py-9 px-5 flex items-center justify-center flex-col">
         <h2 className="text-4xl font-semibold">{dictionary.title}</h2>
         <div className="knowledgeIconDiv mt-6">
@@ -66,7 +61,6 @@ export const Knowledge = ({ dictionary }: { dictionary: IKnowledge }) => {
           </motion.div>
         </div>
       </section>
-    </motion.div>
   );
 };
 
