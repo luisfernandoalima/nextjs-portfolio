@@ -5,15 +5,10 @@ import "atropos/css";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
-import { Metadata } from "next";
 
 import img from "../../public/icons/404.png";
 
 import "@/styles/not-found.scss";
-
-export const metadata:Metadata = {
-  title: "Page not found"
-}
 
 export default function NotFound() {
   useEffect(() => {
