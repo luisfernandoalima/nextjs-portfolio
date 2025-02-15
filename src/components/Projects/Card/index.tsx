@@ -1,16 +1,17 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
 import { IProjectCardDictionary } from "@/types/dictionary";
 import { BadgeList } from "@/utils/badges";
+import Loading from "@/app/[lang]/projects/loading";
 
 import "./Card.scss";
 type BadgeKey = keyof typeof BadgeList;
 
 interface IProjectCard {
   image: StaticImageData;
-  dictionary: IProjectCardDictionary,
+  dictionary: IProjectCardDictionary;
   projectBadges: BadgeKey[];
   link: string;
 }
@@ -24,9 +25,11 @@ export const ProjectCard: React.FC<IProjectCard> = ({
   return (
     <div className={`card_body flex flex-col`}>
       <div className="card_thumb">
-        <Image src={image} alt={dictionary.title} height={200} width={200} />
+        <Suspense fallback={<Loading />}>
+          <Image src={image} alt={dictionary.title} height={200} width={200} />
+        </Suspense>
       </div>
-      <div className='card_info mt-1'>
+      <div className="card_info mt-1">
         <h1 className="text-xl font-medium">{dictionary.title}</h1>
         <p className="text-sm">{dictionary.description}</p>
         <div className={`card_badges`}>
@@ -42,7 +45,9 @@ export const ProjectCard: React.FC<IProjectCard> = ({
             })}
           </ul>
         </div>
-        <Link href={`${link}`} className="cardBtn text-lg font-medium">Visualizar</Link>
+        <Link href={`${link}`} className="cardBtn text-lg font-medium">
+          Visualizar
+        </Link>
       </div>
     </div>
   );
