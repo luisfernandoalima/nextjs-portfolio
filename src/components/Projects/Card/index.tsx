@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 
 import { IProjectCardDictionary } from "@/types/dictionary";
 import { BadgeList } from "@/utils/badges";
-import Loading from "@/app/[lang]/projects/loading";
+import Loading from "@/components/Projects/Card/loading";
 
 import "./Card.scss";
 type BadgeKey = keyof typeof BadgeList;
