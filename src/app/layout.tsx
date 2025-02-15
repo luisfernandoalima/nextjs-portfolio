@@ -9,7 +9,7 @@ export const metadata:Metadata = {
   openGraph: {
     title: "Portfolio Luis Fernando Alves de Lima",
     description:"Portfolio de Desenvolvedor Full-Stack JavaScript.",
-    images: ['../../public/OpenGraphImage.png']
+    images: ['https://nextjs-portfolio-smoky-phi-35.vercel.app/public/OpenGraphImage.png']
   }
 }
 
