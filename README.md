@@ -8,7 +8,7 @@ O projeto está hospedado na **Vercel** e possui um repositório no GitHub.
 
 Links:
 
-- [Site hospedado]()
+- [Site hospedado](https://dev-luis-fernando.vercel.app/)
 
 - [Repositório](https://github.com/luisfernandoalima/nextjs-portfolio)
 
