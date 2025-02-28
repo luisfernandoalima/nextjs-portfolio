@@ -26,14 +26,14 @@
                     {
                         "title": "Higher technology course in Systems Analysis and Development.",
                         "institution": "FATEC Dom Paulo Evaristo Arns",
-                        "startDate": "02/02/2024",
-                        "endDate": "12/31/2026"
+                        "startDate": "2024",
+                        "endDate": "2026"
                     },
                     {
                         "title": "Technical Education in Systems Development.",
                         "institution": "Etec Jardim Ângela",
-                        "startDate": "02/02/2021",
-                        "endDate": "12/31/2023"
+                        "startDate": "2021",
+                        "endDate": "2023"
                     }
                 ]
             },
@@ -54,7 +54,7 @@
             "taskly": {
                 "title": "Taskly",
                 "description": "\"Taskly\" is a to-do list site.",
-                "info":[
+                "info": [
                     {
                         "type": "text",
                         "title": "Description",
@@ -76,11 +76,11 @@
                         "type": "list",
                         "title": "Technologies",
                         "text": [
-                           "HTML;",
-                           "CSS;",
-                           "SASS;",
-                           "JavaScript;",
-                           "TypeScript;",
+                            "HTML;",
+                            "CSS;",
+                            "SASS;",
+                            "JavaScript;",
+                            "TypeScript;",
                             "ReactJS;",
                             "Tailwind;",
                             "NodeJS;",

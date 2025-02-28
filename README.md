@@ -40,8 +40,8 @@ Outras tecnologias e ferramentas que utilizo:
 
 ### Contato
 
-- [GitHub]()
+- [GitHub](https://github.com/luisfernandoalima)
 
-- [E-mail]()
+- [E-mail](mailto:luisfernando.lima2005@gmail.com)
 
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/in/luis-fernando-a-43aaa2230/)

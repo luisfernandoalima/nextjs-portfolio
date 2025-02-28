@@ -26,14 +26,14 @@
                     {
                         "title": "Curso superior de tecnologia em Análise e Desenvolvimento de Sistemas.",
                         "institution": "FATEC Dom Paulo Evaristo Arns",
-                        "startDate": "02/02/2024",
-                        "endDate": "31/12/2026"
+                        "startDate": "2024",
+                        "endDate": "2026"
                     },
                     {
                         "title": "Ensino Técnico em Desenvolvimento de Sistemas Integrado ao Médio.",
                         "institution": "Etec Jardim Ângela",
-                        "startDate": "02/02/2021",
-                        "endDate": "31/12/2023"
+                        "startDate": "2021",
+                        "endDate": "2023"
                     }
                 ]
             },
@@ -54,7 +54,7 @@
             "taskly": {
                 "title": "Taskly",
                 "description": "\"Taskly\" é um site de organização de tarefas utilizando ReactJS e Express.",
-                "info":[
+                "info": [
                     {
                         "type": "text",
                         "title": "Description",
@@ -76,11 +76,11 @@
                         "type": "list",
                         "title": "Tecnologias Utilizadas",
                         "text": [
-                           "HTML;",
-                           "CSS;",
-                           "SASS;",
-                           "JavaScript;",
-                           "TypeScript;",
+                            "HTML;",
+                            "CSS;",
+                            "SASS;",
+                            "JavaScript;",
+                            "TypeScript;",
                             "ReactJS;",
                             "Tailwind;",
                             "NodeJS;",
@@ -95,9 +95,9 @@
                 "description": "Site para colocar os meus projetos desenvolvido em react",
                 "info": [
                     {
-                        "type":"text",
+                        "type": "text",
                         "title": "Descrição",
-                        "text":[
+                        "text": [
                             "Projeto criado para servir de ambiente para localizar meus projetos como desenvolvedor JavaScript."
                         ]
                     },
@@ -105,7 +105,14 @@
                         "type": "list",
                         "title": "Tecnologias Utilizadas",
                         "text": [
-                            "HTML5;","CSS3;","SASS;","JavaScript;","TypeScript;","ReactJS;", "Tailwind;", "Vite."
+                            "HTML5;",
+                            "CSS3;",
+                            "SASS;",
+                            "JavaScript;",
+                            "TypeScript;",
+                            "ReactJS;",
+                            "Tailwind;",
+                            "Vite."
                         ]
                     }
                 ]
@@ -168,9 +175,9 @@
                 "description": "Site para colocar os meus projetos desenvolvido em react",
                 "info": [
                     {
-                        "type":"text",
+                        "type": "text",
                         "title": "Descrição",
-                        "text":[
+                        "text": [
                             "Projeto criado para servir de ambiente para localizar meus projetos como desenvolvedor JavaScript."
                         ]
                     },
@@ -178,7 +185,10 @@
                         "type": "list",
                         "title": "Tecnologias Utilizadas",
                         "text": [
-                            "HTML5;","CSS3;","JavaScript;", "Bootstrap."
+                            "HTML5;",
+                            "CSS3;",
+                            "JavaScript;",
+                            "Bootstrap."
                         ]
                     }
                 ]

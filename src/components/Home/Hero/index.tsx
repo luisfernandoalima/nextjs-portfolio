@@ -47,8 +47,20 @@ export const Hero = ({ dictionary }: { dictionary: IHero }) => {
           <h2 ref={elRef}></h2>
         </div>
         <div className="flex items-center justify-start gap-4 mt-3">
-          <LinkButton link="" text="LinkedIn" customClass="Linkedin"><FaLinkedin /></LinkButton>
-          <LinkButton link="" text="GitHub" customClass="Github"><FaGithub /></LinkButton>
+          <LinkButton
+            link="https://www.linkedin.com/in/luis-fernando-a-43aaa2230/"
+            text="LinkedIn"
+            customClass="Linkedin"
+          >
+            <FaLinkedin />
+          </LinkButton>
+          <LinkButton
+            link="https://github.com/luisfernandoalima"
+            text="GitHub"
+            customClass="Github"
+          >
+            <FaGithub />
+          </LinkButton>
         </div>
       </div>
       <Atropos shadow={false} highlight={false}>

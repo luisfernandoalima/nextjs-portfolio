@@ -99,7 +99,7 @@ const contactsLinks = [
     icon: <FaGithub />,
   },
   {
-    link: "mailto:lima.luisfernando.dev@gmail.com",
+    link: "mailto:luisfernando.lima2005@gmail.com",
     name: "E-mail",
     class: "gmail",
     icon: <FaGoogle />,
